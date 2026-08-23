@@ -1,12 +1,13 @@
 {
   "ok": true,
-  "scope": "replacement Row 7",
+  "scope": "animated Idle frames row 0 columns 0 through 5",
   "algorithm": "edge-local-chroma-spill-suppression",
   "chroma_key": "#FF00FF",
-  "sourceReport": "C:/Users/Mitchell/Documents/ChatGPT/Pet Hatchery/work/cinder-row7-smooth-repair/qa/chroma-despill-extended.json",
+  "sourceReport": "C:/Users/Mitchell/Documents/ChatGPT/Pet Hatchery/work/cinder-idle-expression-repair/qa/chroma-despill-extended.json",
   "validator_fringe_pixels_after": 0,
   "rejected_pixels": 0,
   "alpha_preserved": true,
-  "unchangedRowsPreserved": [0, 1, 2, 3, 4, 5, 6, 8, 9, 10],
-  "notes": "The replacement row was cleaned once before being composited into the prior approved lossless atlas. Pixel comparison confirms all non-target rows are unchanged; final v2 validation reports no chroma warnings."
+  "neutralCellPreserved": {"row": 0, "column": 6},
+  "allOtherCellsPixelIdentical": true,
+  "notes": "The replacement Idle frames were cleaned once before compositing into the prior approved lossless atlas. Final v2 validation reports no chroma warnings."
 }

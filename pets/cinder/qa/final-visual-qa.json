@@ -1,7 +1,7 @@
 {
   "visual_qa": "pass",
-  "qa_note": "Row 7 is a smooth continuous active-work and processing loop with stable scale, registration, grounding, identity, markings, face, copper tag, side-eye, and a clean frame-5-to-0 transition; the repair materially removes the original extreme pose jumps.",
+  "qa_note": "Idle is more expressive yet calm, with readable breathing, side-eye, ear flick, half-blink, smooth attached tail-tip occlusion, stable grounding and identity, and no pops or loop seam.",
   "review_warnings": [],
-  "repair_rows": ["running"],
-  "repair_notes": "Row 7 visually passes; all other rows and look directions remain pixel-identical to the prior approved atlas."
+  "repair_rows": ["idle"],
+  "repair_notes": "Idle visually passes; Row 7 remains the approved smooth active-work scan and all other rows remain pixel-identical."
 }

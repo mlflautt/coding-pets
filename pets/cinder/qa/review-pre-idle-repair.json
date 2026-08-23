@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "scope": "Cinder Row 7 motion-continuity repair",
+  "errors": [],
+  "warnings": [],
+  "unchangedRows": {
+    "rows": [0, 1, 2, 3, 4, 5, 6, 8, 9, 10],
+    "pixelDifference": 0,
+    "evidence": "Pixel comparison of the decoded original and repaired lossless WebP returned no differing bounding box outside Row 7."
+  },
+  "replacementRow": {
+    "row": 7,
+    "state": "running",
+    "frameCount": 6,
+    "extractionReview": "row7-frame-review.json",
+    "assemblyReport": "row7-final-assembly.json",
+    "groundY": 202,
+    "silhouetteHeight": 198,
+    "silhouetteWidthRange": [168, 172],
+    "centerY": 104,
+    "adjacentMeanRgbDeltaRange": [14.371, 19.26]
+  }
+}

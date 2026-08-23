@@ -1,23 +1,25 @@
 {
   "ok": true,
-  "scope": "Cinder Row 7 motion-continuity repair",
+  "scope": "Cinder animated Idle expression repair",
   "errors": [],
   "warnings": [],
-  "unchangedRows": {
-    "rows": [0, 1, 2, 3, 4, 5, 6, 8, 9, 10],
+  "unchangedAtlas": {
+    "rows": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "neutralCell": {"row": 0, "column": 6},
+    "unusedCell": {"row": 0, "column": 7},
     "pixelDifference": 0,
-    "evidence": "Pixel comparison of the decoded original and repaired lossless WebP returned no differing bounding box outside Row 7."
+    "evidence": "Decoded comparison returned no differing bounding box outside animated Idle cells row 0 columns 0 through 5."
   },
   "replacementRow": {
-    "row": 7,
-    "state": "running",
+    "row": 0,
+    "state": "idle",
     "frameCount": 6,
-    "extractionReview": "row7-frame-review.json",
-    "assemblyReport": "row7-final-assembly.json",
+    "extractionReview": "idle-frame-review.json",
+    "assemblyReport": "idle-final-assembly.json",
     "groundY": 202,
     "silhouetteHeight": 198,
-    "silhouetteWidthRange": [168, 172],
-    "centerY": 104,
-    "adjacentMeanRgbDeltaRange": [14.371, 19.26]
+    "silhouetteWidthRange": [133, 161],
+    "centerYRange": [104, 104],
+    "motionLanguage": ["gentle breath", "deeper side-eye", "one ear flick", "half-blink", "restrained attached tail-tip tick"]
   }
 }

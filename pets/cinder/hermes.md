@@ -12,7 +12,7 @@ Cinder is a compact blue-heeler familiar for Codex and Hermes Agent: observant, 
 
 ## Motion language
 
-- `idle`: alert stillness, quiet breathing, ear attention, and the signature side-eye.
+- `idle`: a calm six-frame breathing loop with a deeper side-eye, one anatomical ear flick, a readable half-blink, and one restrained attached tail-tip response.
 - `running-right` / `running-left`: compact literal travel with stable markings and believable foot contact.
 - `waving`: a friendly paw greeting that remains canine rather than humanoid.
 - `jumping`: a brief, sturdy lift and grounded landing.
@@ -23,4 +23,4 @@ Cinder is a compact blue-heeler familiar for Codex and Hermes Agent: observant, 
 
 ## Adaptation guidance
 
-Preserve Cinder's scale, anatomy, markings, copper code tag, and face across every view. Treat the side-eye as the personality anchor. Keep paws grounded unless a state explicitly requires flight, and use one stable character scale for all directional looks. Row 7 must remain one coherent pose family with small even neighbor steps; never restore the former low/seated/upright jumps. Hermes agents should prefer small readable movements over generic cyber effects.
+Preserve Cinder's scale, anatomy, markings, copper code tag, and face across every view. Treat the side-eye as the personality anchor. Keep paws grounded unless a state explicitly requires flight, and use one stable character scale for all directional looks. Animated Idle frames 0–5 must retain their quiet breath, blink, ear, and attached tail-tip expression without becoming another state; the neutral fallback at row 0 column 6 stays unchanged. Row 7 must remain one coherent pose family with small even neighbor steps; never restore the former low/seated/upright jumps. Hermes agents should prefer small readable movements over generic cyber effects.

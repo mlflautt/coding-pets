@@ -8,5 +8,5 @@
   "license": "CC-BY-4.0",
   "attributionName": "Cinder by mlflautt",
   "attributionUrl": "https://github.com/mlflautt/coding-pets",
-  "notes": "Published from the repaired and user-approved Codex v2 package. The README showcase composites three creator-supplied screenshots of the finished pet; interface controls were removed and no showcase frame is used as an atlas source. Row 7 was subsequently regenerated as one coherent active-work scan after user playback review identified artwork-driven jitter; all other atlas rows were preserved pixel-identically."
+  "notes": "Published from the repaired and user-approved Codex v2 package. The README showcase composites three creator-supplied screenshots of the finished pet; interface controls were removed and no showcase frame is used as an atlas source. Row 7 was subsequently regenerated as one coherent active-work scan after user playback review identified artwork-driven jitter. Animated Idle frames 0–5 were later regenerated for slightly more breathing and expression; the neutral fallback and every non-target atlas cell were preserved pixel-identically."
 }

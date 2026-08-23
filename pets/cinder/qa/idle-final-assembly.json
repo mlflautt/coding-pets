@@ -1,0 +1,259 @@
+{
+  "ok": true,
+  "operation": "replace-row-0-expressive-idle-loop",
+  "row": 0,
+  "animated_frame_count": 6,
+  "neutral_cell_preserved": {
+    "row": 0,
+    "column": 6
+  },
+  "ground_y": 202,
+  "source": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\outputs\\cinder-final\\package\\spritesheet.webp",
+  "source_sha256": "D73B433816BE4F089D41694D68A75784EB011F89B69E3BAE3F0F2ADA971C4864",
+  "output": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\cinder-idle-expression-repair\\final\\spritesheet-preserved.webp",
+  "output_sha256": "9E21605BB5053558626485E845CB4F553F36DEBEF5105AC4DB3AB1E285607586",
+  "frames": [
+    {
+      "frame": 0,
+      "source": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\cinder-idle-expression-repair\\final\\spritesheet-cleaned-all.png",
+      "vertical_shift": 0,
+      "before": {
+        "bbox": [
+          19,
+          5,
+          172,
+          203
+        ],
+        "center": [
+          95.5,
+          104.0
+        ],
+        "width": 153,
+        "height": 198,
+        "bottom": 202
+      },
+      "after": {
+        "bbox": [
+          19,
+          5,
+          172,
+          203
+        ],
+        "center": [
+          95.5,
+          104.0
+        ],
+        "width": 153,
+        "height": 198,
+        "bottom": 202
+      }
+    },
+    {
+      "frame": 1,
+      "source": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\cinder-idle-expression-repair\\final\\spritesheet-cleaned-all.png",
+      "vertical_shift": 0,
+      "before": {
+        "bbox": [
+          28,
+          5,
+          163,
+          203
+        ],
+        "center": [
+          95.5,
+          104.0
+        ],
+        "width": 135,
+        "height": 198,
+        "bottom": 202
+      },
+      "after": {
+        "bbox": [
+          28,
+          5,
+          163,
+          203
+        ],
+        "center": [
+          95.5,
+          104.0
+        ],
+        "width": 135,
+        "height": 198,
+        "bottom": 202
+      }
+    },
+    {
+      "frame": 2,
+      "source": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\cinder-idle-expression-repair\\final\\spritesheet-cleaned-all.png",
+      "vertical_shift": 0,
+      "before": {
+        "bbox": [
+          29,
+          5,
+          162,
+          203
+        ],
+        "center": [
+          95.5,
+          104.0
+        ],
+        "width": 133,
+        "height": 198,
+        "bottom": 202
+      },
+      "after": {
+        "bbox": [
+          29,
+          5,
+          162,
+          203
+        ],
+        "center": [
+          95.5,
+          104.0
+        ],
+        "width": 133,
+        "height": 198,
+        "bottom": 202
+      }
+    },
+    {
+      "frame": 3,
+      "source": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\cinder-idle-expression-repair\\final\\spritesheet-cleaned-all.png",
+      "vertical_shift": 0,
+      "before": {
+        "bbox": [
+          23,
+          5,
+          169,
+          203
+        ],
+        "center": [
+          96.0,
+          104.0
+        ],
+        "width": 146,
+        "height": 198,
+        "bottom": 202
+      },
+      "after": {
+        "bbox": [
+          23,
+          5,
+          169,
+          203
+        ],
+        "center": [
+          96.0,
+          104.0
+        ],
+        "width": 146,
+        "height": 198,
+        "bottom": 202
+      }
+    },
+    {
+      "frame": 4,
+      "source": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\cinder-idle-expression-repair\\final\\spritesheet-cleaned-all.png",
+      "vertical_shift": 0,
+      "before": {
+        "bbox": [
+          15,
+          5,
+          176,
+          203
+        ],
+        "center": [
+          95.5,
+          104.0
+        ],
+        "width": 161,
+        "height": 198,
+        "bottom": 202
+      },
+      "after": {
+        "bbox": [
+          15,
+          5,
+          176,
+          203
+        ],
+        "center": [
+          95.5,
+          104.0
+        ],
+        "width": 161,
+        "height": 198,
+        "bottom": 202
+      }
+    },
+    {
+      "frame": 5,
+      "source": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\cinder-idle-expression-repair\\final\\spritesheet-cleaned-all.png",
+      "vertical_shift": 0,
+      "before": {
+        "bbox": [
+          23,
+          5,
+          168,
+          203
+        ],
+        "center": [
+          95.5,
+          104.0
+        ],
+        "width": 145,
+        "height": 198,
+        "bottom": 202
+      },
+      "after": {
+        "bbox": [
+          23,
+          5,
+          168,
+          203
+        ],
+        "center": [
+          95.5,
+          104.0
+        ],
+        "width": 145,
+        "height": 198,
+        "bottom": 202
+      }
+    }
+  ],
+  "adjacent_motion": [
+    {
+      "from": 0,
+      "to": 1,
+      "mean_rgb_delta": 22.398
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "mean_rgb_delta": 13.753
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "mean_rgb_delta": 19.602
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "mean_rgb_delta": 24.143
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "mean_rgb_delta": 24.083
+    },
+    {
+      "from": 5,
+      "to": 0,
+      "mean_rgb_delta": 16.762
+    }
+  ]
+}
