@@ -8,7 +8,7 @@ A public catalogue of my custom animated pets made via iteration with the "hatch
 
 [<img src="pets/vesper/preview.png" width="320" alt="Vesper in actual Codex use">](pets/vesper/preview.png)
 
-An opalescent violet-feathered threshold spirit whose three luminous glass antennae signal agent activity.
+An opalescent violet-feathered threshold spirit with three luminous glass antennae.
 
 [Character and motion guide](pets/vesper/hermes.md) · [Codex manifest](pets/vesper/pet.json) · [QA evidence](pets/vesper/qa/) · **CC BY 4.0**
 
