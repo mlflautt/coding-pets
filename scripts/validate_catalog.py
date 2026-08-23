@@ -32,6 +32,11 @@ def load_json(path: Path) -> dict:
 def main() -> int:
     errors: list[str] = []
     try:
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    except OSError as exc:
+        print(f"ERROR: README.md: {exc}")
+        return 1
+    try:
         catalog = load_json(ROOT / "catalog.json")
     except ValueError as exc:
         print(f"ERROR: {exc}")
@@ -64,6 +69,8 @@ def main() -> int:
             errors.append(f"{pet_id}: manifest must be {expected_manifest}")
         if entry.get("preview") != expected_preview:
             errors.append(f"{pet_id}: preview must be {expected_preview}")
+        if expected_preview not in readme:
+            errors.append(f"{pet_id}: README must display or link {expected_preview}")
         for relative in REQUIRED_PET_FILES:
             if not (pet_dir / relative).is_file():
                 errors.append(f"{pet_id}: missing {relative}")

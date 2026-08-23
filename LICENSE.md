@@ -2,6 +2,8 @@
 
 Except where a pet's provenance file explicitly says otherwise, the original pet assets published under `pets/` are licensed under the **Creative Commons Attribution 4.0 International Public License (CC BY 4.0)**.
 
+The license applies only to copyright and similar rights, if any, that the catalogue owner holds and is authorized to grant. It does not assert that every AI-assisted pixel or element is independently copyrightable. Material that is already in the public domain remains in the public domain; this notice does not create new exclusive rights over it.
+
 This includes each pet's:
 
 - spritesheet and animation previews;
