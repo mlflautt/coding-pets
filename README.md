@@ -10,7 +10,7 @@ A public catalogue of my custom animated pets made via iteration with the "hatch
 
 A plush three-node fox-ibis messenger familiar for Hermes Agent, with wing-shaped ears, opal brow nodes, gold circuitry, and twin cable tails. Triskel greets naturally and turns active processing into an attentive ear-scan.
 
-[Character and motion guide](pets/triskel/hermes.md) · [Codex manifest](pets/triskel/pet.json) · [QA evidence](pets/triskel/qa/) · **CC BY 4.0**
+[Character and motion guide](pets/triskel/hermes.md) · [Codex manifest](pets/triskel/pet.json) · [QA evidence](pets/triskel/qa/)
 
 ### Little Magus
 
@@ -18,7 +18,7 @@ A plush three-node fox-ibis messenger familiar for Hermes Agent, with wing-shape
 
 A soot-black Hermetic bear familiar in a pale embroidered coat and conical cap. Little Magus verifies work with a single connected blackened-silver armillary, balancing quiet storybook warmth with careful ritual focus.
 
-[Character and motion guide](pets/odin-bear-little-magus/hermes.md) · [Codex manifest](pets/odin-bear-little-magus/pet.json) · [QA evidence](pets/odin-bear-little-magus/qa/) · **CC BY 4.0**
+[Character and motion guide](pets/odin-bear-little-magus/hermes.md) · [Codex manifest](pets/odin-bear-little-magus/pet.json) · [QA evidence](pets/odin-bear-little-magus/qa/)
 
 ### Vesper
 
@@ -26,7 +26,7 @@ A soot-black Hermetic bear familiar in a pale embroidered coat and conical cap. 
 
 An opalescent violet-feathered threshold spirit with three luminous glass antennae.
 
-[Character and motion guide](pets/vesper/hermes.md) · [Codex manifest](pets/vesper/pet.json) · [QA evidence](pets/vesper/qa/) · **CC BY 4.0**
+[Character and motion guide](pets/vesper/hermes.md) · [Codex manifest](pets/vesper/pet.json) · [QA evidence](pets/vesper/qa/)
 
 ---
 
