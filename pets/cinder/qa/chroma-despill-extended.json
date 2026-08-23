@@ -1,13 +1,12 @@
 {
   "ok": true,
-  "input": "../spritesheet.webp",
-  "output": "../spritesheet.webp",
-  "algorithm": "final-transparent-atlas-inspection",
-  "operation": "no-op",
-  "changed_pixels": 0,
-  "opaque_chroma_key_pixels": 0,
-  "chroma_fringe_pixels": 0,
-  "transparent_rgb_residue_pixels": 0,
+  "scope": "replacement Row 7",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "chroma_key": "#FF00FF",
+  "sourceReport": "C:/Users/Mitchell/Documents/ChatGPT/Pet Hatchery/work/cinder-row7-smooth-repair/qa/chroma-despill-extended.json",
+  "validator_fringe_pixels_after": 0,
+  "rejected_pixels": 0,
   "alpha_preserved": true,
-  "notes": "The final repaired RGBA atlas validated with no opaque chroma-key pixels, chroma fringe pixels, or transparent RGB residue; no additional despill mutation was required."
+  "unchangedRowsPreserved": [0, 1, 2, 3, 4, 5, 6, 8, 9, 10],
+  "notes": "The replacement row was cleaned once before being composited into the prior approved lossless atlas. Pixel comparison confirms all non-target rows are unchanged; final v2 validation reports no chroma warnings."
 }

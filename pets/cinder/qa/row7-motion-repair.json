@@ -1,0 +1,255 @@
+{
+  "ok": true,
+  "operation": "replace-row-7-active-work-loop",
+  "row": 7,
+  "frame_count": 6,
+  "ground_y": 202,
+  "source": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\outputs\\cinder-final\\package\\spritesheet.webp",
+  "source_sha256": "388FD65369070C30C7CD09DFCD1CB1CDA222EB06D6BDCF78AC95E93BDDD66CF7",
+  "output": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\cinder-row7-smooth-repair\\final\\spritesheet-repaired.png",
+  "output_sha256": "5E9D760BF087CD1EDD32C05570303B5B76BCEC4C0062E964E38F5E3C7559B0E2",
+  "frames": [
+    {
+      "frame": 0,
+      "source": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\cinder-row7-smooth-repair\\frames\\running\\00.png",
+      "vertical_shift": 0,
+      "before": {
+        "bbox": [
+          12,
+          5,
+          180,
+          203
+        ],
+        "center": [
+          96.0,
+          104.0
+        ],
+        "width": 168,
+        "height": 198,
+        "bottom": 202
+      },
+      "after": {
+        "bbox": [
+          12,
+          5,
+          180,
+          203
+        ],
+        "center": [
+          96.0,
+          104.0
+        ],
+        "width": 168,
+        "height": 198,
+        "bottom": 202
+      }
+    },
+    {
+      "frame": 1,
+      "source": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\cinder-row7-smooth-repair\\frames\\running\\01.png",
+      "vertical_shift": 0,
+      "before": {
+        "bbox": [
+          11,
+          5,
+          180,
+          203
+        ],
+        "center": [
+          95.5,
+          104.0
+        ],
+        "width": 169,
+        "height": 198,
+        "bottom": 202
+      },
+      "after": {
+        "bbox": [
+          11,
+          5,
+          180,
+          203
+        ],
+        "center": [
+          95.5,
+          104.0
+        ],
+        "width": 169,
+        "height": 198,
+        "bottom": 202
+      }
+    },
+    {
+      "frame": 2,
+      "source": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\cinder-row7-smooth-repair\\frames\\running\\02.png",
+      "vertical_shift": 0,
+      "before": {
+        "bbox": [
+          10,
+          5,
+          182,
+          203
+        ],
+        "center": [
+          96.0,
+          104.0
+        ],
+        "width": 172,
+        "height": 198,
+        "bottom": 202
+      },
+      "after": {
+        "bbox": [
+          10,
+          5,
+          182,
+          203
+        ],
+        "center": [
+          96.0,
+          104.0
+        ],
+        "width": 172,
+        "height": 198,
+        "bottom": 202
+      }
+    },
+    {
+      "frame": 3,
+      "source": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\cinder-row7-smooth-repair\\frames\\running\\03.png",
+      "vertical_shift": 0,
+      "before": {
+        "bbox": [
+          11,
+          5,
+          181,
+          203
+        ],
+        "center": [
+          96.0,
+          104.0
+        ],
+        "width": 170,
+        "height": 198,
+        "bottom": 202
+      },
+      "after": {
+        "bbox": [
+          11,
+          5,
+          181,
+          203
+        ],
+        "center": [
+          96.0,
+          104.0
+        ],
+        "width": 170,
+        "height": 198,
+        "bottom": 202
+      }
+    },
+    {
+      "frame": 4,
+      "source": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\cinder-row7-smooth-repair\\frames\\running\\04.png",
+      "vertical_shift": 0,
+      "before": {
+        "bbox": [
+          12,
+          5,
+          180,
+          203
+        ],
+        "center": [
+          96.0,
+          104.0
+        ],
+        "width": 168,
+        "height": 198,
+        "bottom": 202
+      },
+      "after": {
+        "bbox": [
+          12,
+          5,
+          180,
+          203
+        ],
+        "center": [
+          96.0,
+          104.0
+        ],
+        "width": 168,
+        "height": 198,
+        "bottom": 202
+      }
+    },
+    {
+      "frame": 5,
+      "source": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\cinder-row7-smooth-repair\\frames\\running\\05.png",
+      "vertical_shift": 0,
+      "before": {
+        "bbox": [
+          11,
+          5,
+          181,
+          203
+        ],
+        "center": [
+          96.0,
+          104.0
+        ],
+        "width": 170,
+        "height": 198,
+        "bottom": 202
+      },
+      "after": {
+        "bbox": [
+          11,
+          5,
+          181,
+          203
+        ],
+        "center": [
+          96.0,
+          104.0
+        ],
+        "width": 170,
+        "height": 198,
+        "bottom": 202
+      }
+    }
+  ],
+  "adjacent_motion": [
+    {
+      "from": 0,
+      "to": 1,
+      "mean_rgb_delta": 17.832
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "mean_rgb_delta": 20.199
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "mean_rgb_delta": 22.809
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "mean_rgb_delta": 20.655
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "mean_rgb_delta": 17.16
+    },
+    {
+      "from": 5,
+      "to": 0,
+      "mean_rgb_delta": 21.919
+    }
+  ]
+}

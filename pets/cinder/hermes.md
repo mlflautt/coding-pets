@@ -18,9 +18,9 @@ Cinder is a compact blue-heeler familiar for Codex and Hermes Agent: observant, 
 - `jumping`: a brief, sturdy lift and grounded landing.
 - `failed`: disappointment progresses from a slump into a low grounded posture; frames remain on one common floor line.
 - `waiting`: patient attention toward the user with restrained ear and eye motion.
-- `running`: active agent work expressed through focused bodily attention.
+- `running`: active agent work expressed as a smooth six-frame head-and-eye scan with fixed torso, paws, scale, and ground line; it is not literal locomotion.
 - `review`: a low, scrutinizing pose with the wry side-eye doing most of the storytelling.
 
 ## Adaptation guidance
 
-Preserve Cinder's scale, anatomy, markings, copper code tag, and face across every view. Treat the side-eye as the personality anchor. Keep paws grounded unless a state explicitly requires flight, and use one stable character scale for all directional looks. Hermes agents should prefer small readable movements over generic cyber effects.
+Preserve Cinder's scale, anatomy, markings, copper code tag, and face across every view. Treat the side-eye as the personality anchor. Keep paws grounded unless a state explicitly requires flight, and use one stable character scale for all directional looks. Row 7 must remain one coherent pose family with small even neighbor steps; never restore the former low/seated/upright jumps. Hermes agents should prefer small readable movements over generic cyber effects.

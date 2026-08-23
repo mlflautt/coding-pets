@@ -1,11 +1,7 @@
 {
   "visual_qa": "pass",
-  "qa_note": "The revised atlas has coherent apparent scale, grounded non-jump states including failed frames 2, 3, and 4 at y=202, preserved directional bounce and jump-only lift, no bottom crop or stretching, and no new look-loop size pop from shared 1.15 scaling.",
-  "review_warnings": [
-    "067.5 vertical and 135 and 157.5 horizontal cues were blind-ambiguous, but labeled landmarks preserve their quadrants without reversal.",
-    "Alpha-hole candidates are natural ear and paw negative spaces with no visible seam or body hole.",
-    "Continuity outliers reflect pose and view changes with no visible snap, scale pop, identity break, or grounding jump."
-  ],
-  "repair_rows": [],
-  "repair_notes": null
+  "qa_note": "Row 7 is a smooth continuous active-work and processing loop with stable scale, registration, grounding, identity, markings, face, copper tag, side-eye, and a clean frame-5-to-0 transition; the repair materially removes the original extreme pose jumps.",
+  "review_warnings": [],
+  "repair_rows": ["running"],
+  "repair_notes": "Row 7 visually passes; all other rows and look directions remain pixel-identical to the prior approved atlas."
 }
