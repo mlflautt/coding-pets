@@ -8,7 +8,7 @@ A public catalogue of my custom animated pets made via iteration with the "hatch
 
 [<img src="pets/triskel/preview.png" width="720" alt="Triskel three-pose showcase">](pets/triskel/showcase/three-pose.png)
 
-A plush three-node cat-bird messenger familiar for Codex, with wing-embroidered ears and twin cable tails.
+A plush cat-bird hybrid messenger familiar for Codex, with wing-embroidered ears and twin cable tails, and three-gemstone forehead.
 
 [Character and motion guide](pets/triskel/hermes.md) · [Codex manifest](pets/triskel/pet.json) · [QA evidence](pets/triskel/qa/)
 
