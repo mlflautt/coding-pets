@@ -1,0 +1,8 @@
+{
+  "visual_qa": "pass",
+  "qa_note": "Rebuilt running-right now keeps the canonical small mask and broad dense mantle across the full cycle, with no swollen late frame, no chicken-like neck, breast, or legs, and no visible clipping seams or detached effects. Jumping and non-directional running also stay on-model.",
+  "direction_semantics": "Pass. Hard cardinals read correctly, row 10 maintains the down to screen-left to up-left progression, and the 157.5 to 180 plus 337.5 to 000 transitions no longer read as conspicuous user-visible snaps in the repaired visuals, even though some review-only diagonal metrics remain elevated.",
+  "review_warnings": "Deterministic transparency and despill checks are clean, glow and matte spill stay consistent, and three antennae are present whenever visibility permits. Remaining JSON warnings are shallow-diagonal review signals rather than material visual defects in this build.",
+  "repair_rows": [],
+  "repair_notes": ""
+}

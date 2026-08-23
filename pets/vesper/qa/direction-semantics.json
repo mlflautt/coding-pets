@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "reviewRequired": true,
+  "hardCardinals": {
+    "000": "pass: up",
+    "090": "pass: screen-right",
+    "180": "pass: down",
+    "270": "pass: screen-left"
+  },
+  "directions": [
+    {"direction": "000", "verdict": "pass", "observed": "up"},
+    {"direction": "022.5", "verdict": "warning", "observed": "up with a subtle right cue"},
+    {"direction": "045", "verdict": "warning", "observed": "up-right with mixed horizontal blind votes"},
+    {"direction": "067.5", "verdict": "pass", "observed": "up-right"},
+    {"direction": "090", "verdict": "pass", "observed": "screen-right"},
+    {"direction": "112.5", "verdict": "warning", "observed": "right with a subtle down cue"},
+    {"direction": "135", "verdict": "pass", "observed": "down-right"},
+    {"direction": "157.5", "verdict": "warning", "observed": "down-right with mixed horizontal blind votes"},
+    {"direction": "180", "verdict": "pass", "observed": "down"},
+    {"direction": "202.5", "verdict": "pass", "observed": "down-left"},
+    {"direction": "225", "verdict": "warning", "observed": "left with a subtle down cue"},
+    {"direction": "247.5", "verdict": "warning", "observed": "left with a subtle down cue"},
+    {"direction": "270", "verdict": "pass", "observed": "screen-left"},
+    {"direction": "292.5", "verdict": "warning", "observed": "left with a subtle up cue"},
+    {"direction": "315", "verdict": "warning", "observed": "left with a subtle up cue"},
+    {"direction": "337.5", "verdict": "warning", "observed": "near-up with a subtle left cue and mixed vertical blind votes"}
+  ],
+  "resolution": "Accepted after labeled normal-size loop review and independent final visual QA; all hard cardinal gates pass and no wrong-half reversal or conspicuous boundary snap remains."
+}

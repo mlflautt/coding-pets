@@ -1,0 +1,13 @@
+{
+  "id": "replace-me",
+  "displayName": "Replace Me",
+  "description": "Replace with a concise character description.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "catalog": {
+    "status": "draft",
+    "previewPath": "preview.png",
+    "hermesNotesPath": "hermes.md",
+    "provenancePath": "provenance.json"
+  }
+}

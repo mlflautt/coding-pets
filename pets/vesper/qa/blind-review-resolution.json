@@ -1,0 +1,19 @@
+{
+  "decision": "accept",
+  "severity": "minor",
+  "failed_checks": [
+    "022.5 and 337.5 horizontal axes are subtle or ambiguous",
+    "045 horizontal axis received a mixed blind vote",
+    "157.5 horizontal axis received a mixed blind vote",
+    "112.5 vertical axis is subtle or ambiguous",
+    "337.5 vertical axis received a mixed blind vote",
+    "225, 247.5, 292.5, and 315 vertical axes are subtle or ambiguous"
+  ],
+  "evidence": [
+    "All four hard cardinal gates pass by strict blind majority: 000 up, 090 screen-right, 180 down, and 270 screen-left.",
+    "The independent final visual reviewer confirms that row 10 maintains the down to screen-left to up-left progression.",
+    "The 157.5 to 180 area ratio is 1.003 and the 337.5 to 000 area ratio is 1.082; neither boundary presents a conspicuous visual snap.",
+    "Extended atlas validation, alpha review, and chroma-despill validation pass."
+  ],
+  "reviewed_by": "independent final visual QA"
+}

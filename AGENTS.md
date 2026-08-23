@@ -1,0 +1,29 @@
+# Agent instructions
+
+This repository is a public catalogue, not a scratch workspace.
+
+## Goal
+
+Maintain portable pet packages that work in Codex and remain legible to Hermes Agent and medium-sized local agents. Preserve creative intent, provenance, validation evidence, and reversible edits.
+
+## Before changing a pet
+
+1. Read `README.md`, `HERMES.md`, `catalog.schema.json`, and the pet's `pet.json` plus `hermes.md`.
+2. Treat existing images and metadata as user-owned source material.
+3. Work in a temporary run directory; do not overwrite a published pet until the replacement passes validation and visual review.
+4. Never invent validation results, provenance, authorship, or licensing.
+
+## Publish contract
+
+- Pet directory: `pets/<pet-id>/`
+- Required: `pet.json`, `spritesheet.webp`, `preview.png`, `hermes.md`, `provenance.json`
+- Required QA: `qa/validation-extended.json`, `qa/chroma-despill-extended.json`, `qa/run-summary.json`
+- Optional but encouraged: contact sheet, look-direction sheet, animation previews, and human review notes
+- Codex v2 atlas: 1536×2288 WebP, 192×208 cells, 8 columns, 11 rows
+- `spriteVersionNumber` must be `2`
+
+Run `python3 scripts/validate_catalog.py` before handing off. Visual quality still requires human or qualified visual-agent review; structural validation alone is insufficient.
+
+## Creative behavior
+
+Keep distinct variants when the user wants comparison. Retain stable IDs and lineage. Record warnings honestly. Do not choose a creative winner without user guidance.

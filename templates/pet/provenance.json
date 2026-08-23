@@ -1,0 +1,9 @@
+{
+  "createdAt": "YYYY-MM-DD",
+  "createdBy": ["human", "agent"],
+  "sourceType": "original",
+  "derivedFrom": null,
+  "tools": [],
+  "references": [],
+  "notes": "Replace placeholders before publication."
+}

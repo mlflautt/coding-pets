@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "spritesheet": "../spritesheet.webp",
+  "validation": "validation-extended.json",
+  "chromaDespill": "chroma-despill-extended.json",
+  "contactSheet": "contact-sheet-extended.png",
+  "directionSheet": "look-directions.png",
+  "directionSemantics": "direction-semantics.json",
+  "blindDirectionValidation": "direction-blind-validation.json",
+  "blindReviewResolution": "blind-review-resolution.json",
+  "continuity": "look-continuity.json",
+  "review": "review.json",
+  "finalVisualQa": "final-visual-qa.json",
+  "sourceRunDate": "2026-08-21"
+}

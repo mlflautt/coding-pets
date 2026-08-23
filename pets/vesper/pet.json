@@ -1,0 +1,13 @@
+{
+  "id": "vesper",
+  "displayName": "Vesper",
+  "description": "An opalescent violet-feathered threshold spirit whose three luminous glass antennae signal agent activity.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "catalog": {
+    "status": "published",
+    "previewPath": "preview.png",
+    "hermesNotesPath": "hermes.md",
+    "provenancePath": "provenance.json"
+  }
+}
