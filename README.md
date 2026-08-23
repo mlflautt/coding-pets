@@ -6,7 +6,7 @@ A public catalogue of custom animated pets for Codex, with enough portable conte
 
 ### Vesper
 
-[<img src="pets/vesper/preview.png" width="520" alt="Vesper animation contact sheet">](pets/vesper/preview.png)
+[<img src="pets/vesper/preview.png" width="320" alt="Vesper in actual Codex use">](pets/vesper/preview.png)
 
 An opalescent violet-feathered threshold spirit whose three luminous glass antennae signal agent activity.
 

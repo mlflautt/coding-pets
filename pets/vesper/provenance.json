@@ -7,6 +7,8 @@
   "tools": ["hatch-pet", "imagegen", "deterministic atlas QA"],
   "references": [],
   "assetSha256": "5f2abcb1a5b4d290543005116c47feb3f2f2dd7466a5496366e6428bd5222c45",
+  "previewSource": "User-provided screenshot of Vesper in actual Codex use",
+  "previewSha256": "cccece615029505bf3087c9c13b58b5c8f9ad28a0c30aa34fe2d7be5abb60f08",
   "license": "CC-BY-4.0",
   "attributionName": "mlflautt",
   "attributionUrl": "https://github.com/mlflautt/coding-pets",
