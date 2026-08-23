@@ -1,0 +1,12 @@
+{
+  "createdAt": "2026-08-23",
+  "createdBy": ["Mitchell Flautt", "Codex"],
+  "sourceType": "original",
+  "derivedFrom": null,
+  "tools": ["hatch-pet", "imagegen"],
+  "references": ["User-supplied blue-heeler character reference", "User-approved Cinder animations captured in Codex"],
+  "license": "CC-BY-4.0",
+  "attributionName": "Cinder by mlflautt",
+  "attributionUrl": "https://github.com/mlflautt/coding-pets",
+  "notes": "Published from the repaired and user-approved Codex v2 package. The README showcase composites three creator-supplied screenshots of the finished pet; interface controls were removed and no showcase frame is used as an atlas source."
+}

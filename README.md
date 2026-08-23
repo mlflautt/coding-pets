@@ -4,6 +4,14 @@ A public catalogue of my custom animated pets made via iteration with the "hatch
 
 ## Meet the pets
 
+### Cinder
+
+[<img src="pets/cinder/preview.png" width="720" alt="Cinder three-pose showcase">](pets/cinder/showcase/three-pose.png)
+
+A compact blue-heeler familiar with a faithful face, restrained mysticism, a tiny copper code tag, and a defining wry side-eye.
+
+[Character and motion guide](pets/cinder/hermes.md) · [Codex manifest](pets/cinder/pet.json) · [QA evidence](pets/cinder/qa/)
+
 ### Triskel
 
 [<img src="pets/triskel/preview.png" width="720" alt="Triskel three-pose showcase">](pets/triskel/showcase/three-pose.png)

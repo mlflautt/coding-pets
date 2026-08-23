@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "input": "../spritesheet.webp",
+  "output": "../spritesheet.webp",
+  "algorithm": "final-transparent-atlas-inspection",
+  "operation": "no-op",
+  "changed_pixels": 0,
+  "opaque_chroma_key_pixels": 0,
+  "chroma_fringe_pixels": 0,
+  "transparent_rgb_residue_pixels": 0,
+  "alpha_preserved": true,
+  "notes": "The final repaired RGBA atlas validated with no opaque chroma-key pixels, chroma fringe pixels, or transparent RGB residue; no additional despill mutation was required."
+}

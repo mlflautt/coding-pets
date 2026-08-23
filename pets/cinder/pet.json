@@ -1,0 +1,14 @@
+{
+  "id": "cinder",
+  "displayName": "Cinder",
+  "description": "A compact blue-heeler familiar with a faithful face, restrained mysticism, a tiny copper code tag, and a defining wry side-eye.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "license": "CC-BY-4.0",
+  "catalog": {
+    "status": "published",
+    "previewPath": "preview.png",
+    "hermesNotesPath": "hermes.md",
+    "provenancePath": "provenance.json"
+  }
+}
