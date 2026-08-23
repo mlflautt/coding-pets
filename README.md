@@ -1,6 +1,6 @@
 # Coding Pets
 
-A public catalogue of custom animated pets for Codex, with enough portable context for Hermes Agent and other local agents to understand their identity and motion. This repository shares the **pets themselves**—it is not a publication of or claim over the Hatch Pet creation method.
+A public catalogue of my custom animated pets made via iteration with the "hatch-pet" skill in Codex, with enough portable context for Hermes Agent and other local agents to understand their identity and motion. This repository shares the **pets themselves**—it is not a publication of or claim over the Hatch Pet creation method.
 
 ## Meet the pets
 
