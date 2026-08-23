@@ -8,7 +8,7 @@ A public catalogue of my custom animated pets made via iteration with the "hatch
 
 [<img src="pets/triskel/preview.png" width="720" alt="Triskel three-pose showcase">](pets/triskel/showcase/three-pose.png)
 
-A plush three-node fox-ibis messenger familiar for Hermes Agent, with wing-shaped ears, opal brow nodes, gold circuitry, and twin cable tails. Triskel greets naturally and turns active processing into an attentive ear-scan.
+A plush three-node cat-bird messenger familiar for Codex, with wing-embroidered ears and twin cable tails.
 
 [Character and motion guide](pets/triskel/hermes.md) · [Codex manifest](pets/triskel/pet.json) · [QA evidence](pets/triskel/qa/)
 
@@ -16,7 +16,7 @@ A plush three-node fox-ibis messenger familiar for Hermes Agent, with wing-shape
 
 [<img src="pets/odin-bear-little-magus/preview.png" width="720" alt="Little Magus three-pose showcase">](pets/odin-bear-little-magus/showcase/three-pose.png)
 
-A soot-black Hermetic bear familiar in a pale embroidered coat and conical cap. Little Magus verifies work with a single connected blackened-silver armillary, balancing quiet storybook warmth with careful ritual focus.
+A soot-black bear representing Odin, Little Magus gave up one of his eyes to drink from Mímir's well and gain cosmic insight. Choosing the path of the Hermetic Magus, he donned the robes, hat, and armillary of Hermes Trismegistus.  He has finally found his home as a pet in Hermes Agent.
 
 [Character and motion guide](pets/odin-bear-little-magus/hermes.md) · [Codex manifest](pets/odin-bear-little-magus/pet.json) · [QA evidence](pets/odin-bear-little-magus/qa/)
 
