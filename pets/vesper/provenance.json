@@ -7,5 +7,8 @@
   "tools": ["hatch-pet", "imagegen", "deterministic atlas QA"],
   "references": [],
   "assetSha256": "5f2abcb1a5b4d290543005116c47feb3f2f2dd7466a5496366e6428bd5222c45",
+  "license": "CC-BY-4.0",
+  "attributionName": "mlflautt",
+  "attributionUrl": "https://github.com/mlflautt/coding-pets",
   "notes": "Canonical installed Vesper v2 luminous package. Creative direction and selection were human-guided."
 }

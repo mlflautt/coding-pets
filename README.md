@@ -40,4 +40,10 @@ Hermes should read `catalog.json`, then the selected pet's `pet.json` and `herme
 
 ## Licensing
 
-No reuse license has been selected yet. Public visibility does not grant permission to reuse the artwork or code. Add an explicit license before inviting third-party contributions or reuse.
+The published pets themselves are licensed under [Creative Commons Attribution 4.0 International](LICENSE.md). This covers each pet's spritesheet, previews, character guide, and pet-specific metadata. It does **not** claim ownership of or license the Hatch Pet method, Codex, Hermes Agent, supporting software, or third-party tools.
+
+Suggested attribution:
+
+```text
+Vesper by mlflautt — CC BY 4.0 — https://github.com/mlflautt/coding-pets
+```

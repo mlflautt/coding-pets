@@ -8,6 +8,7 @@
       "displayName": "Vesper",
       "description": "An opalescent violet-feathered threshold spirit whose three luminous glass antennae signal agent activity.",
       "status": "published",
+      "license": "CC-BY-4.0",
       "manifest": "pets/vesper/pet.json",
       "preview": "pets/vesper/preview.png",
       "tags": ["codex-v2", "hermes", "opalescent", "studio-familiar"],

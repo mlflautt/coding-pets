@@ -4,6 +4,7 @@
   "description": "An opalescent violet-feathered threshold spirit whose three luminous glass antennae signal agent activity.",
   "spriteVersionNumber": 2,
   "spritesheetPath": "spritesheet.webp",
+  "license": "CC-BY-4.0",
   "catalog": {
     "status": "published",
     "previewPath": "preview.png",
