@@ -1,0 +1,973 @@
+{
+  "ok": true,
+  "frames_root": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\idle\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21205,
+          "bbox": [
+            16,
+            5,
+            176,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 297
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\idle\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21384,
+          "bbox": [
+            15,
+            5,
+            177,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 343
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\idle\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20988,
+          "bbox": [
+            16,
+            5,
+            176,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 336
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\idle\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20750,
+          "bbox": [
+            19,
+            5,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 312
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\idle\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21151,
+          "bbox": [
+            15,
+            5,
+            176,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 310
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\idle\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21251,
+          "bbox": [
+            14,
+            5,
+            178,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 324
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running-right\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17665,
+          "bbox": [
+            5,
+            20,
+            187,
+            187
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 385
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running-right\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18679,
+          "bbox": [
+            12,
+            5,
+            179,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 424
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running-right\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18203,
+          "bbox": [
+            5,
+            13,
+            187,
+            194
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 402
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running-right\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18520,
+          "bbox": [
+            12,
+            5,
+            179,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 406
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running-right\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18735,
+          "bbox": [
+            5,
+            12,
+            187,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 413
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running-right\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20609,
+          "bbox": [
+            5,
+            8,
+            187,
+            199
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 470
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running-right\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21266,
+          "bbox": [
+            5,
+            7,
+            187,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 476
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running-right\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20250,
+          "bbox": [
+            5,
+            8,
+            187,
+            199
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 465
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running-left\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17260,
+          "bbox": [
+            5,
+            18,
+            187,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 360
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running-left\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15837,
+          "bbox": [
+            5,
+            19,
+            187,
+            189
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 350
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running-left\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17749,
+          "bbox": [
+            5,
+            14,
+            187,
+            194
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 385
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running-left\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18420,
+          "bbox": [
+            5,
+            10,
+            187,
+            198
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 392
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running-left\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16839,
+          "bbox": [
+            5,
+            15,
+            187,
+            193
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 370
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running-left\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16259,
+          "bbox": [
+            5,
+            16,
+            187,
+            191
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 363
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running-left\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17909,
+          "bbox": [
+            5,
+            10,
+            187,
+            197
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 408
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running-left\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17151,
+          "bbox": [
+            5,
+            20,
+            187,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 380
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\waving\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21411,
+          "bbox": [
+            15,
+            5,
+            176,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 174
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\waving\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21656,
+          "bbox": [
+            16,
+            5,
+            176,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 166
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\waving\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 22586,
+          "bbox": [
+            8,
+            5,
+            184,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 170
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\waving\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21307,
+          "bbox": [
+            17,
+            5,
+            175,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 169
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\jumping\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18087,
+          "bbox": [
+            5,
+            25,
+            187,
+            182
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 215
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\jumping\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21525,
+          "bbox": [
+            10,
+            5,
+            181,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 264
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\jumping\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19869,
+          "bbox": [
+            13,
+            5,
+            178,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 210
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\jumping\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20441,
+          "bbox": [
+            5,
+            12,
+            187,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 229
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\jumping\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20848,
+          "bbox": [
+            5,
+            15,
+            187,
+            193
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 254
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\failed\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19354,
+          "bbox": [
+            24,
+            5,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 366
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\failed\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20272,
+          "bbox": [
+            5,
+            14,
+            187,
+            194
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 398
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\failed\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19274,
+          "bbox": [
+            5,
+            22,
+            187,
+            186
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 386
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\failed\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14714,
+          "bbox": [
+            5,
+            47,
+            187,
+            160
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 320
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\failed\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15273,
+          "bbox": [
+            5,
+            44,
+            187,
+            164
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 327
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\failed\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19867,
+          "bbox": [
+            5,
+            22,
+            187,
+            185
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 397
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\failed\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21247,
+          "bbox": [
+            5,
+            18,
+            187,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 394
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\failed\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19992,
+          "bbox": [
+            5,
+            20,
+            187,
+            187
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 406
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\waiting\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20471,
+          "bbox": [
+            20,
+            5,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 225
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\waiting\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19692,
+          "bbox": [
+            23,
+            5,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 192
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\waiting\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16732,
+          "bbox": [
+            24,
+            5,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 176
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\waiting\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19919,
+          "bbox": [
+            22,
+            5,
+            170,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 210
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\waiting\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19892,
+          "bbox": [
+            22,
+            5,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 209
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\waiting\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19840,
+          "bbox": [
+            22,
+            5,
+            170,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 212
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19861,
+          "bbox": [
+            20,
+            6,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 226
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18074,
+          "bbox": [
+            28,
+            5,
+            163,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 197
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17801,
+          "bbox": [
+            26,
+            13,
+            165,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 200
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18654,
+          "bbox": [
+            23,
+            9,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 239
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18773,
+          "bbox": [
+            22,
+            10,
+            170,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 227
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\running\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19215,
+          "bbox": [
+            22,
+            6,
+            170,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 247
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\review\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19463,
+          "bbox": [
+            27,
+            5,
+            164,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 260
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\review\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18164,
+          "bbox": [
+            29,
+            5,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 243
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\review\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19373,
+          "bbox": [
+            25,
+            5,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 253
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\review\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18917,
+          "bbox": [
+            28,
+            5,
+            164,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 284
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\review\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19883,
+          "bbox": [
+            25,
+            5,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 310
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\work\\triskel-ear-scan-r7\\frames-full\\review\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17632,
+          "bbox": [
+            32,
+            5,
+            160,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 253
+        }
+      ]
+    }
+  ]
+}

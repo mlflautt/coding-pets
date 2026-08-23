@@ -1,0 +1,12 @@
+{
+  "createdAt": "2026-08-22",
+  "createdBy": ["Mitchell Flautt", "Codex"],
+  "sourceType": "original",
+  "derivedFrom": null,
+  "tools": ["hatch-pet", "imagegen"],
+  "references": ["User-approved Little Magus turnaround and armillary mechanics reference"],
+  "license": "CC-BY-4.0",
+  "attributionName": "Little Magus by mlflautt",
+  "attributionUrl": "https://github.com/mlflautt/coding-pets",
+  "notes": "Published from the finished Codex v2 package. README showcase images are actual Codex screenshots supplied by the creator."
+}

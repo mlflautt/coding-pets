@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "package": "pets/odin-bear-little-magus",
+  "spritesheet": "spritesheet.webp",
+  "validation": "qa/validation-extended.json",
+  "chromaDespill": "qa/chroma-despill-extended.json",
+  "contactSheet": "qa/contact-sheet-extended.png",
+  "directionSheet": "qa/look-directions.png",
+  "directionSemantics": "qa/direction-semantics.json",
+  "continuity": "qa/look-continuity.json",
+  "review": "qa/review.json",
+  "source": "Finished Little Magus Codex v2 package from the Pet Hatchery"
+}

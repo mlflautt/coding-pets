@@ -1,0 +1,12 @@
+{
+  "createdAt": "2026-08-20",
+  "createdBy": ["Mitchell Flautt", "Codex"],
+  "sourceType": "original",
+  "derivedFrom": null,
+  "tools": ["hatch-pet", "imagegen"],
+  "references": ["User-approved Triskel character turnaround and expression guide"],
+  "license": "CC-BY-4.0",
+  "attributionName": "Triskel by mlflautt",
+  "attributionUrl": "https://github.com/mlflautt/coding-pets",
+  "notes": "Published from the finished user-approved Codex v2 package. README showcase images are actual Codex screenshots supplied by the creator."
+}

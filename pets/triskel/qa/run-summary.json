@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "approvedAt": "2026-08-22",
+  "petId": "triskel",
+  "spriteVersionNumber": 2,
+  "atlas": "../spritesheet.webp",
+  "validation": "validation-extended.json",
+  "chromaDespill": "chroma-despill-extended.json",
+  "review": "review.json",
+  "contactSheet": "contact-sheet-extended.png",
+  "previews": "previews",
+  "sha256": "E3121C361C0AADDE9764927BE321E2621EC660F5D10FC0C282130FE2D0B15EC6",
+  "row7Source": "Triskel-specific generated ear scan r7 with symmetric half-blink",
+  "userAcceptedRows": [2, 3, 7]
+}

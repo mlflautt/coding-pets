@@ -4,6 +4,22 @@ A public catalogue of my custom animated pets made via iteration with the "hatch
 
 ## Meet the pets
 
+### Triskel
+
+[<img src="pets/triskel/preview.png" width="720" alt="Triskel three-pose showcase">](pets/triskel/showcase/three-pose.png)
+
+A plush three-node fox-ibis messenger familiar for Hermes Agent, with wing-shaped ears, opal brow nodes, gold circuitry, and twin cable tails. Triskel greets naturally and turns active processing into an attentive ear-scan.
+
+[Character and motion guide](pets/triskel/hermes.md) · [Codex manifest](pets/triskel/pet.json) · [QA evidence](pets/triskel/qa/) · **CC BY 4.0**
+
+### Little Magus
+
+[<img src="pets/odin-bear-little-magus/preview.png" width="720" alt="Little Magus three-pose showcase">](pets/odin-bear-little-magus/showcase/three-pose.png)
+
+A soot-black Hermetic bear familiar in a pale embroidered coat and conical cap. Little Magus verifies work with a single connected blackened-silver armillary, balancing quiet storybook warmth with careful ritual focus.
+
+[Character and motion guide](pets/odin-bear-little-magus/hermes.md) · [Codex manifest](pets/odin-bear-little-magus/pet.json) · [QA evidence](pets/odin-bear-little-magus/qa/) · **CC BY 4.0**
+
 ### Vesper
 
 [<img src="pets/vesper/preview.png" width="320" alt="Vesper in actual Codex use">](pets/vesper/preview.png)

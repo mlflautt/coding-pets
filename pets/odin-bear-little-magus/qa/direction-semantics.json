@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "reviewType": "labeled internal semantic inspection",
+  "blindReviewStatus": "pending",
+  "reviewerCount": 0,
+  "cardinalSources": {
+    "000": "decoded/look-anchors/000.png",
+    "090": "decoded/look-anchors/090.png",
+    "180": "decoded/look-anchors/180.png",
+    "270": "decoded/look-anchors/270.png"
+  },
+  "checks": {
+    "000": "pass: unmistakable upward head and muzzle pitch",
+    "022.5": "pass: up-right transitional pose",
+    "045": "pass: up-right transitional pose",
+    "067.5": "pass: near-profile up-right pose",
+    "090": "pass: unmistakable screen-right profile",
+    "112.5": "pass: down-right transitional pose",
+    "135": "pass: down-right transitional pose",
+    "157.5": "pass: near-frontal down-right pose",
+    "180": "pass: unmistakable downward head and muzzle pitch",
+    "202.5": "pass: down-left transitional pose",
+    "225": "pass: down-left transitional pose",
+    "247.5": "pass: near-profile down-left pose",
+    "270": "pass: unmistakable screen-left profile",
+    "292.5": "pass: up-left transitional pose",
+    "315": "pass: up-left transitional pose",
+    "337.5": "pass: near-frontal up-left pose"
+  },
+  "reviewedExceptions": [
+    "continuity metric flags silhouette changes at several generated-to-cardinal handoffs",
+    "all frames remain unclipped, stable in scale, and preserve the anatomical-right armillary hand"
+  ]
+}

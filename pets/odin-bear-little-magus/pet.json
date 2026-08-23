@@ -1,0 +1,14 @@
+{
+  "id": "odin-bear-little-magus",
+  "displayName": "Little Magus",
+  "description": "A soot-black Hermetic bear familiar who verifies work with a connected armillary.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "license": "CC-BY-4.0",
+  "catalog": {
+    "status": "published",
+    "previewPath": "preview.png",
+    "hermesNotesPath": "hermes.md",
+    "provenancePath": "provenance.json"
+  }
+}

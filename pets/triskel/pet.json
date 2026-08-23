@@ -1,0 +1,14 @@
+{
+  "id": "triskel",
+  "displayName": "Triskel",
+  "description": "A plush three-node fox-ibis messenger familiar for Hermes Agent.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "license": "CC-BY-4.0",
+  "catalog": {
+    "status": "published",
+    "previewPath": "preview.png",
+    "hermesNotesPath": "hermes.md",
+    "provenancePath": "provenance.json"
+  }
+}

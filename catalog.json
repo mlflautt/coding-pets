@@ -4,6 +4,28 @@
   "name": "Codex + Hermes Pet Catalogue",
   "pets": [
     {
+      "id": "triskel",
+      "displayName": "Triskel",
+      "description": "A plush three-node fox-ibis messenger familiar for Hermes Agent.",
+      "status": "published",
+      "license": "CC-BY-4.0",
+      "manifest": "pets/triskel/pet.json",
+      "preview": "pets/triskel/preview.png",
+      "tags": ["codex-v2", "hermes", "plush", "messenger-familiar"],
+      "derivedFrom": null
+    },
+    {
+      "id": "odin-bear-little-magus",
+      "displayName": "Little Magus",
+      "description": "A soot-black Hermetic bear familiar who verifies work with a connected armillary.",
+      "status": "published",
+      "license": "CC-BY-4.0",
+      "manifest": "pets/odin-bear-little-magus/pet.json",
+      "preview": "pets/odin-bear-little-magus/preview.png",
+      "tags": ["codex-v2", "hermes", "storybook", "hermetic-familiar"],
+      "derivedFrom": null
+    },
+    {
       "id": "vesper",
       "displayName": "Vesper",
       "description": "An opalescent violet-feathered threshold spirit whose three luminous glass antennae signal agent activity.",
