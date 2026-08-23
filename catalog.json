@@ -4,6 +4,17 @@
   "name": "Codex + Hermes Pet Catalogue",
   "pets": [
     {
+      "id": "calamus",
+      "displayName": "Calamus",
+      "description": "A faience mantis scribe familiar inspired by the measured wisdom and written memory of Thoth.",
+      "status": "published",
+      "license": "CC-BY-4.0",
+      "manifest": "pets/calamus/pet.json",
+      "preview": "pets/calamus/preview.png",
+      "tags": ["codex-v2", "hermes", "faience", "scribe-familiar", "mantis"],
+      "derivedFrom": null
+    },
+    {
       "id": "cinder",
       "displayName": "Cinder",
       "description": "A compact blue-heeler familiar with a faithful face, restrained mysticism, a tiny copper code tag, and a defining wry side-eye.",

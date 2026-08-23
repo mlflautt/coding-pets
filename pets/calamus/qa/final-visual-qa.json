@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "technically_package_eligible": true,
+  "standard_rows": {
+    "idle": true,
+    "running-right": true,
+    "running-left": true,
+    "waving": true,
+    "jumping": true,
+    "failed": true,
+    "waiting": true,
+    "running": true,
+    "review": true
+  },
+  "prior_blockers_closed": [
+    "jumping orientation and closure",
+    "review rear-to-front closure snap",
+    "000 direct-up cardinal",
+    "337.5-to-000 loop transition",
+    "row-9/row-10 apparent scale consistency",
+    "running-right hidden or fused walking legs",
+    "running-left hidden or fused walking legs"
+  ],
+  "directional_run_anatomy": {
+    "running-right": "all 8 frames show four separately countable walking legs plus two folded writing forelimbs",
+    "running-left": "all 8 frames show four separately countable walking legs plus two folded writing forelimbs"
+  },
+  "blockers": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "calamus",
+  "displayName": "Calamus",
+  "description": "A faience mantis scribe familiar inspired by the measured wisdom and written memory of Thoth.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "license": "CC-BY-4.0",
+  "catalog": {
+    "status": "published",
+    "previewPath": "preview.png",
+    "hermesNotesPath": "hermes.md",
+    "provenancePath": "provenance.json"
+  }
+}

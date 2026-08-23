@@ -1,0 +1,16 @@
+{
+  "createdAt": "2026-08-23",
+  "createdBy": ["Mitchell Flautt", "Codex"],
+  "sourceType": "original",
+  "derivedFrom": null,
+  "tools": ["hatch-pet", "imagegen"],
+  "references": [
+    "User-selected Faience Calamus concept",
+    "User-approved canonical turnaround v2 and expression-mechanics sheet",
+    "Three user-supplied screenshots of the finished pet running in Codex"
+  ],
+  "license": "CC-BY-4.0",
+  "attributionName": "Calamus by mlflautt",
+  "attributionUrl": "https://github.com/mlflautt/coding-pets",
+  "notes": "Published from the repaired and user-approved Codex v2 package. The showcase was composed with imagegen from three retained creator-supplied screenshots; those screenshots are presentation references and were never used as atlas sources. Earlier directional run rows were rejected when profile occlusion hid walking legs, and both complete gait families were regenerated before publication."
+}

@@ -4,6 +4,14 @@ A public catalogue of my custom animated pets made via iteration with the "hatch
 
 ## Meet the pets
 
+### Calamus
+
+[<img src="pets/calamus/preview.png" width="720" alt="Calamus three-pose showcase">](pets/calamus/showcase/three-pose.png)
+
+A faience mantis scribe familiar inspired by the measured wisdom and written memory of Thoth.
+
+[Character and motion guide](pets/calamus/hermes.md) · [Codex manifest](pets/calamus/pet.json) · [QA evidence](pets/calamus/qa/)
+
 ### Cinder
 
 [<img src="pets/cinder/preview.png" width="720" alt="Cinder three-pose showcase">](pets/cinder/showcase/three-pose.png)

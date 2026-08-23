@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "approvedAt": "2026-08-23",
+  "petId": "calamus",
+  "revision": "directional-six-limb-repair-2026-08-23",
+  "spriteVersionNumber": 2,
+  "atlas": "../spritesheet.webp",
+  "validation": "validation-extended.json",
+  "chromaDespill": "chroma-despill-extended.json",
+  "review": "review.json",
+  "finalVisualQa": "final-visual-qa.json",
+  "directionBlindValidation": "direction-blind-validation.json",
+  "directionSemantics": "direction-semantics.json",
+  "lookContinuity": "look-continuity.json",
+  "contactSheet": "contact-sheet-extended.png",
+  "lookDirections": "look-directions.png",
+  "previews": "previews",
+  "sha256": "ECDAEDDD94FB9EB278A0EEB2ECE773D621BFAC1482E5D5364C4AB683512E3917",
+  "directionalAnatomy": {
+    "running-right": "all 8 frames show four separately countable walking legs plus two folded writing forelimbs",
+    "running-left": "all 8 frames show four separately countable walking legs plus two folded writing forelimbs"
+  },
+  "humanReview": "User approved Calamus after the complete leftward and rightward gait families were repaired for strict six-limb readability."
+}
