@@ -7,6 +7,7 @@
 - `pets/<pet-id>/pet.json`: Codex installation manifest plus catalogue metadata
 - `pets/<pet-id>/hermes.md`: character identity, motion language, creative constraints, and usage notes
 - `pets/<pet-id>/provenance.json`: lineage and source declarations
+- `pets/<pet-id>/concept-development/`: selected visual explorations and creative decisions
 - `pets/<pet-id>/qa/`: retained validation evidence
 
 ## Safe workflow
@@ -16,6 +17,7 @@
 3. For Codex installation, copy only `pet.json` and `spritesheet.webp` to `~/.codex/pets/<id>/`.
 4. For a derivative, create a new stable ID and set `derivedFrom`; do not mutate the original lineage.
 5. Ask the user to judge creative variants. Automated checks may reject structural defects but must not declare aesthetic superiority.
+6. Treat concept-development images as historical references. The packaged spritesheet and real-use preview remain authoritative for what the pet actually looks like in use.
 
 ## Compatibility boundary
 

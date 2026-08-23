@@ -16,6 +16,7 @@ REQUIRED_PET_FILES = (
     "preview.png",
     "hermes.md",
     "provenance.json",
+    "concept-development/README.md",
     "qa/validation-extended.json",
     "qa/chroma-despill-extended.json",
     "qa/run-summary.json",

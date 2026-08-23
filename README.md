@@ -14,15 +14,16 @@ An opalescent violet-feathered threshold spirit whose three luminous glass anten
 
 ---
 
-The canonical index is [`catalog.json`](catalog.json). Each pet lives under `pets/<pet-id>/` and carries its own manifest, packaged sprite atlas, preview, provenance, and retained QA evidence.
+The canonical index is [`catalog.json`](catalog.json). Each pet lives under `pets/<pet-id>/` and carries its own manifest, packaged sprite atlas, preview, provenance, retained QA evidence, and a [`concept-development/`](pets/vesper/concept-development/) record of the visual exploration behind it.
 
 ## Add a pet
 
 1. Copy `templates/pet/` to `pets/<pet-id>/`.
 2. Replace the placeholders and add the validated `spritesheet.webp` and a clear `preview.png`.
-3. Add a visible pet card near the top of this README so visitors can judge the pet immediately.
-4. Add the machine-readable entry to `catalog.json`.
-5. Run `python3 scripts/validate_catalog.py`.
+3. Add selected visual iterations to `concept-development/` and record their role and outcome in its `README.md`. Keep rejected concepts clearly labeled; concepts are not shipped pet assets.
+4. Add a visible pet card near the top of this README so visitors can judge the pet immediately.
+5. Add the machine-readable entry to `catalog.json`.
+6. Run `python3 scripts/validate_catalog.py`.
 
 New Codex pets use the v2 atlas contract: `1536×2288`, `192×208` cells, 8 columns, 11 rows, and `spriteVersionNumber: 2`. The first nine rows contain app states; the final two contain 16 clockwise look directions.
 
@@ -41,6 +42,7 @@ Hermes should read `catalog.json`, then the selected pet's `pet.json` and `herme
 ## Publishing policy
 
 - Publish final packages, compact previews, provenance, and meaningful QA evidence.
+- Preserve useful concept development with honest labels such as `exploration`, `candidate`, `approved-reference`, or `rejected`.
 - Keep prompts, decoded row strips, extracted frames, and temporary generation assets out of Git.
 - Never claim a pet is validated unless its retained validation files pass.
 - Preserve human authorship notes and creative intent; agents should not silently rank or replace variants.

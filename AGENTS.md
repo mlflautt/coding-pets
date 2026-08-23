@@ -18,6 +18,7 @@ Maintain portable pet packages that work in Codex and remain legible to Hermes A
 - Pet directory: `pets/<pet-id>/`
 - Required: `pet.json`, `spritesheet.webp`, `preview.png`, `hermes.md`, `provenance.json`
 - Required QA: `qa/validation-extended.json`, `qa/chroma-despill-extended.json`, `qa/run-summary.json`
+- Required concept record: `concept-development/README.md`
 - Optional but encouraged: contact sheet, look-direction sheet, animation previews, and human review notes
 - Codex v2 atlas: 1536×2288 WebP, 192×208 cells, 8 columns, 11 rows
 - `spriteVersionNumber` must be `2`
@@ -27,3 +28,5 @@ Run `python3 scripts/validate_catalog.py` before handing off. Visual quality sti
 ## Creative behavior
 
 Keep distinct variants when the user wants comparison. Retain stable IDs and lineage. Record warnings honestly. Do not choose a creative winner without user guidance.
+
+Concept images are development evidence, not proof of the shipped pet. Label each retained image with its role, origin, relationship to the final asset, and outcome. Never present a rejected or aspirational concept as an actual animation frame.
