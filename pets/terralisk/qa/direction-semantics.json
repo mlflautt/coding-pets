@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "reviewed_at_normal_size": true,
+  "directions": [
+    {"degree":"000","verdict":"pass","expected":"up","observed":"centered head pitched back with nose and chin aimed upward","reason":"The vertical up cardinal is unmistakable and passed the hard blind gate."},
+    {"degree":"022.5","verdict":"pass","expected":"up-right","observed":"elevated head beginning a screen-right turn","reason":"Both axes are visible in the ordered loop."},
+    {"degree":"045","verdict":"pass","expected":"up-right","observed":"raised screen-right profile","reason":"The head occupies the intended upper-right quadrant."},
+    {"degree":"067.5","verdict":"pass","expected":"up-right","observed":"rightward snout retaining an upward pitch","reason":"Right dominates while the up cue remains readable."},
+    {"degree":"090","verdict":"pass","expected":"right","observed":"unmistakable screen-right profile","reason":"The right cardinal passed the hard blind gate."},
+    {"degree":"112.5","verdict":"pass","expected":"down-right","observed":"rightward snout with the head beginning to bow","reason":"Both horizontal-right and vertical-down cues are visible."},
+    {"degree":"135","verdict":"warning","expected":"down-right","observed":"strong down cue with a subtle screen-right component","reason":"Blind isolation found the horizontal cue subtle, while labeled loop review confirms the intended lower-right progression without reversal."},
+    {"degree":"157.5","verdict":"warning","expected":"down-right","observed":"near-down pose retaining a weak screen-right cue","reason":"The labeled loop approaches 180 continuously and shows no wrong-quadrant reversal."},
+    {"degree":"180","verdict":"pass","expected":"down","observed":"centered crown-dominant bowed head","reason":"The vertical down cardinal is unmistakable and passed the hard blind gate."},
+    {"degree":"202.5","verdict":"pass","expected":"down-left","observed":"bowed head beginning a screen-left turn","reason":"The pose advances naturally away from the down cardinal."},
+    {"degree":"225","verdict":"pass","expected":"down-left","observed":"clear lowered screen-left profile","reason":"Both axes are visible."},
+    {"degree":"247.5","verdict":"pass","expected":"down-left","observed":"leftward snout retaining a downward pitch","reason":"Left dominates while the down cue remains readable."},
+    {"degree":"270","verdict":"pass","expected":"left","observed":"unmistakable screen-left profile","reason":"The left cardinal passed the hard blind gate."},
+    {"degree":"292.5","verdict":"pass","expected":"up-left","observed":"screen-left profile lifting upward","reason":"Both horizontal-left and vertical-up cues are visible."},
+    {"degree":"315","verdict":"pass","expected":"up-left","observed":"clear elevated screen-left head","reason":"The pose occupies the intended upper-left quadrant."},
+    {"degree":"337.5","verdict":"warning","expected":"up-left","observed":"near-up pose retaining a subtle screen-left cue","reason":"Blind isolation found the horizontal cue subtle, while the labeled loop transitions coherently into 000 without reversal."}
+  ],
+  "continuity_resolution": {
+    "decision": "accept",
+    "severity": "minor",
+    "reviewed_by": "independent visual QA and parent",
+    "warnings": [
+      "157.5->180 silhouette and area transition",
+      "270->292.5 silhouette and center transition",
+      "337.5->000 silhouette, center, and area transition",
+      "transparent interior-row candidates across direction cells"
+    ],
+    "evidence": "Normal-size labeled review shows a coherent physical head-direction loop with no visible snap, clipping, detached part, or wrong-quadrant reversal. Metric outliers reflect natural foreshortening and pose-family transitions; alpha-hole candidates are intentional negative spaces between limbs, tail curl, gills, and silhouette features."
+  }
+}

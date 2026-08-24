@@ -28,6 +28,14 @@ A bright plush chameleon who watches work with curious rotating eyes and a rainb
 
 [Character and motion guide](pets/prism/hermes.md) · [Codex manifest](pets/prism/pet.json) · [QA evidence](pets/prism/qa/)
 
+### Terralisk
+
+[<img src="pets/terralisk/preview.png" width="720" alt="Terralisk idle, waving, and jumping poses">](pets/terralisk/preview.png)
+
+A graphite salamander-gecko familiar with cyan-and-amber living circuitry, vent-like heat-fin gills, and a precise spiral tail.
+
+[Character and motion guide](pets/terralisk/hermes.md) · [Codex manifest](pets/terralisk/pet.json) · [QA evidence](pets/terralisk/qa/)
+
 ### Calamus
 
 [<img src="pets/calamus/preview.png" width="720" alt="Calamus three-pose showcase">](pets/calamus/showcase/three-pose.png)

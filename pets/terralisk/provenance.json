@@ -1,0 +1,17 @@
+{
+  "createdAt": "2026-08-24",
+  "createdBy": ["Mitchell Flautt", "Codex"],
+  "sourceType": "original",
+  "derivedFrom": null,
+  "tools": ["hatch-pet", "imagegen", "deterministic atlas QA"],
+  "references": [
+    "User-directed approved Terralisk concept retained in concept-development/approved-reference.png"
+  ],
+  "assetSha256": "49d1c46eb0a5f72376f305bfb996d119ecc9880df81ff6d70ea3dc49754653b8",
+  "previewSource": "Deterministic three-frame composite from the published spritesheet",
+  "previewSha256": "73bf25ffdfb39729db442fae5cf3634c1fabefdcc7b3bb60a7c804b2dfd90d29",
+  "license": "CC-BY-4.0",
+  "attributionName": "Terralisk by mlflautt",
+  "attributionUrl": "https://github.com/mlflautt/coding-pets",
+  "notes": "Published from the finalized and independently reviewed Codex v2 package. The public preview uses shipped idle, waving, and jumping cells without regenerating or retouching the character."
+}

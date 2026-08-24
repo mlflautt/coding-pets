@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "reason": "The initial four-cardinal source strip had source-edge clipping candidates in 000 and 090.",
+  "repairs": [
+    {
+      "direction": "000",
+      "action": "regenerated individual cardinal anchor with increased safe padding",
+      "semanticEvidence": "Both complete eyeballs roll upward and the snout pitches up."
+    },
+    {
+      "direction": "090",
+      "action": "regenerated individual cardinal anchor with increased safe padding",
+      "semanticEvidence": "The nose tip and complete visible eye cross to screen-right of the head center."
+    }
+  ],
+  "preserved": ["180", "270"],
+  "validation": "qa/cardinal-anchors.json"
+}

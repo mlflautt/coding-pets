@@ -1,0 +1,14 @@
+{
+  "id": "terralisk",
+  "displayName": "Terralisk",
+  "description": "A graphite salamander-gecko familiar with cyan-and-amber living circuitry, vent-like heat-fin gills, and a precise spiral tail.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "license": "CC-BY-4.0",
+  "catalog": {
+    "status": "published",
+    "previewPath": "preview.png",
+    "hermesNotesPath": "hermes.md",
+    "provenancePath": "provenance.json"
+  }
+}

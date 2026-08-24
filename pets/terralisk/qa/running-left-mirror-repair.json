@@ -1,0 +1,67 @@
+{
+  "ok": true,
+  "row": 2,
+  "state": "running-left",
+  "method": "framewise-horizontal-mirror-preserving-order",
+  "reason": "Final visual QA found clipping in the earlier source-strip derivation; rebuilding from the already normalized approved rightward cells preserves the exact gait while keeping every silhouette within its cell.",
+  "frames": [
+    {
+      "frame": 0,
+      "source": "frames/running-right/00.png",
+      "output": "frames/running-left/00.png",
+      "sourceSha256": "db6af744d47d5f7c5bd54b6db641d6f595d3a8ed6fc6dfe015886b37dc6da790",
+      "outputSha256": "01ae962de31982d695ee851607599550545311efb0724c1263879b71206e17cd"
+    },
+    {
+      "frame": 1,
+      "source": "frames/running-right/01.png",
+      "output": "frames/running-left/01.png",
+      "sourceSha256": "d562fe5ee045d1e79f4611c6c98ff138785e28e7d9bb6b7a5cec9732b77e1cca",
+      "outputSha256": "7085843ab8fe32214801341af104590cccb8d1e833ee3013916b2ab2b4a8868d"
+    },
+    {
+      "frame": 2,
+      "source": "frames/running-right/02.png",
+      "output": "frames/running-left/02.png",
+      "sourceSha256": "f83bc2c27bc4257b230a86a3ae46649fa637aee63ebf1ffa32fcc7984ae30e50",
+      "outputSha256": "be7d8bf93383d65874f06534e102b4724061435a3f298ba1eef0b4fe6cf77852"
+    },
+    {
+      "frame": 3,
+      "source": "frames/running-right/03.png",
+      "output": "frames/running-left/03.png",
+      "sourceSha256": "4006fa77d83129359f8bcca9054f78480e1b61b66b9346b47c32db1d54294469",
+      "outputSha256": "9f98a43e03f5ba872801a8cff8b59feb0e06ebf1334640d87cdb546a08ca6bf9"
+    },
+    {
+      "frame": 4,
+      "source": "frames/running-right/04.png",
+      "output": "frames/running-left/04.png",
+      "sourceSha256": "53a50d12964411f71eae7ee40be23d9924e592b0df9fefc7f242af81b888629f",
+      "outputSha256": "1cbb87a587fd03f261a6d951f8893987047faef6bf717e27da2ff36589bb3f82"
+    },
+    {
+      "frame": 5,
+      "source": "frames/running-right/05.png",
+      "output": "frames/running-left/05.png",
+      "sourceSha256": "f418b71f1a74ee7a22a3d002a0bbfe28ebea6ee71fc97d24e3794003cbf1a458",
+      "outputSha256": "e95a5351918be120540842608428d56fbc1d3f08f8bd687fda99c61c45a85d43"
+    },
+    {
+      "frame": 6,
+      "source": "frames/running-right/06.png",
+      "output": "frames/running-left/06.png",
+      "sourceSha256": "2fc9f606b5cdb9e6dda8f9bb574a7161f0616c4fb81b9460dc364087ab063f91",
+      "outputSha256": "48c3c17bf718b277adb5db018004542bb31c51638a934dcf65646fc1d3b24f42"
+    },
+    {
+      "frame": 7,
+      "source": "frames/running-right/07.png",
+      "output": "frames/running-left/07.png",
+      "sourceSha256": "fde2bd2188569f5163f2f2e79cfdffa501b76dba211e73ab4163f32e46bddd3d",
+      "outputSha256": "5b3cbafc3d9441ffed1ee462a7184397863b1db962c2602149eaddfdecc952e0"
+    }
+  ],
+  "strip": "decoded/running-left.png",
+  "stripSha256": "6a258e18391b0c7a8ee974bf847c060c3284b8b83c598be7e926429b2812d6f2"
+}

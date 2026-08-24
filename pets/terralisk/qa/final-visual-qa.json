@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "visual_qa": "pass",
+  "qa_note": "All nine standard rows and both look rows preserve Terralisk's identity, scale, tail, circuitry, gills, and coherent motion; repaired row 2 is an exact framewise leftward mirror with every silhouette fully in bounds and 5 px horizontal padding.",
+  "direction_semantics": "All four cardinals pass; all twelve intermediate directions are physically correct in the labeled loop, with accepted subtle horizontal cues at 135, 157.5, and 337.5.",
+  "review_warnings": "Blind intermediate horizontal ambiguity at 135, 157.5, and 337.5 is accepted from labeled loop context; continuity outliers reflect natural foreshortening without visible snaps; alpha-hole candidates are intentional silhouette negative spaces.",
+  "repair_rows": [],
+  "repair_notes": "none"
+}
