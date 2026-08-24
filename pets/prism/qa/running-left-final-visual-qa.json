@@ -1,0 +1,8 @@
+{
+  "visual_qa": "pass",
+  "reviewer": "independent final visual QA worker",
+  "qa_note": "Row 2 has eight complete, safely padded, nonoverlapping left-facing frames with stable plush identity, baseline and alternating drag cadence, plus a visibly hip-attached naturally curling purple tail. All other rows and look directions remain coherent and unchanged, and deterministic validation passes.",
+  "review_warnings": [],
+  "repair_rows": [],
+  "repair_notes": []
+}

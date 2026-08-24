@@ -1,0 +1,17 @@
+{
+  "createdAt": "2026-08-24",
+  "createdBy": ["Mitchell Flautt", "Codex"],
+  "sourceType": "original",
+  "derivedFrom": null,
+  "tools": ["hatch-pet", "imagegen", "deterministic atlas QA"],
+  "references": [
+    "User-selected plush rainbow chameleon reference"
+  ],
+  "assetSha256": "e8913d20aefc4340571153a7fc4183c441789602c68f8d2fc63c6046b1a38325",
+  "previewSource": "Deterministic three-frame composite from the published spritesheet",
+  "previewSha256": "dafd10ccdc3cfcdc685aa119fbfd37abd5bb5658e307d7930321c1e5ae09ac5d",
+  "license": "CC-BY-4.0",
+  "attributionName": "Prism by mlflautt",
+  "attributionUrl": "https://github.com/mlflautt/coding-pets",
+  "notes": "Published from the finalized, installed, repaired, and independently reviewed Codex v2 package. The public preview uses shipped idle, waving, and jumping cells without regenerating or retouching the character."
+}

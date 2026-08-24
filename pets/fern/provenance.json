@@ -1,0 +1,17 @@
+{
+  "createdAt": "2026-08-24",
+  "createdBy": ["Mitchell Flautt", "Codex"],
+  "sourceType": "original",
+  "derivedFrom": null,
+  "tools": ["hatch-pet", "imagegen", "deterministic atlas QA"],
+  "references": [
+    "User-approved jade-and-walnut forest dragon reference"
+  ],
+  "assetSha256": "2996f1d35a85926a7a4a6a499888b93c24718248eae89edc71e268a3b2e2fd69",
+  "previewSource": "Deterministic three-frame composite from the published spritesheet",
+  "previewSha256": "8cfb8a3df12cae91a4fe81d97718e43f3a32d02d0e300938b8deb13f6dc13df3",
+  "license": "CC-BY-4.0",
+  "attributionName": "Fern by mlflautt",
+  "attributionUrl": "https://github.com/mlflautt/coding-pets",
+  "notes": "Published from the finalized, installed, and independently reviewed Codex v2 package. The public preview uses shipped idle, waving, and jumping cells without regenerating or retouching the character."
+}

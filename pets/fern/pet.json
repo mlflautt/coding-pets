@@ -1,0 +1,14 @@
+{
+  "id": "fern",
+  "displayName": "Fern",
+  "description": "A compact jade-and-walnut forest dragon with angular armor, expressive amber eyes, and refined classic wings.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "license": "CC-BY-4.0",
+  "catalog": {
+    "status": "published",
+    "previewPath": "preview.png",
+    "hermesNotesPath": "hermes.md",
+    "provenancePath": "provenance.json"
+  }
+}

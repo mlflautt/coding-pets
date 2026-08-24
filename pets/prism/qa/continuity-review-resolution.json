@@ -1,0 +1,7 @@
+{
+  "decision": "accept",
+  "reviewed_by": "independent final visual QA worker",
+  "numeric_warning": "090→112.5 remains a local pixel-diff outlier after repair, but area ratio is 1.09 and center shift is 3px; no visible snap, scale pop, or reversal is present.",
+  "alpha_hole_warnings": "Accepted as intentional exterior negative space between separate silhouette parts such as eyes, crest, feet, and limbs; no transparent seam or interior hole crosses filled plush material.",
+  "final_visual_qa": "pass"
+}

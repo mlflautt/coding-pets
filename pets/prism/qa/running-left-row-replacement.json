@@ -1,0 +1,11 @@
+{
+  "operation": "complete standard-row replacement",
+  "extended_atlas": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/final/spritesheet-extended.png",
+  "standard_atlas": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/final/spritesheet-row2-repair-base.png",
+  "row": 2,
+  "row_label": "running-left",
+  "other_rows_preserved_exactly": true,
+  "before_row_sha256": "49211860449d0a5a0890e7a56f66a4449c87e76647b6ff99817df32d9546829a",
+  "after_row_sha256": "9f405324c419890504cd99a11cd7e6ba4d5797bbf134beff3babc86c4598529b",
+  "row_changed": true
+}

@@ -57,6 +57,39 @@
       "preview": "pets/vesper/preview.png",
       "tags": ["codex-v2", "hermes", "opalescent", "studio-familiar"],
       "derivedFrom": null
+    },
+    {
+      "id": "terra-golem",
+      "displayName": "Terra Golem",
+      "description": "A sturdy moss-covered stone golem with a rounded forest-green metal torso, warm wooden joints and belly panel, and twin amber visor eyes.",
+      "status": "published",
+      "license": "CC-BY-4.0",
+      "manifest": "pets/terra-golem/pet.json",
+      "preview": "pets/terra-golem/preview.png",
+      "tags": ["codex-v2", "hermes", "3d-toy", "stone-golem", "forest-familiar"],
+      "derivedFrom": null
+    },
+    {
+      "id": "fern",
+      "displayName": "Fern",
+      "description": "A compact jade-and-walnut forest dragon with angular armor, expressive amber eyes, and refined classic wings.",
+      "status": "published",
+      "license": "CC-BY-4.0",
+      "manifest": "pets/fern/pet.json",
+      "preview": "pets/fern/preview.png",
+      "tags": ["codex-v2", "hermes", "3d-toy", "forest-dragon", "jade"],
+      "derivedFrom": null
+    },
+    {
+      "id": "prism",
+      "displayName": "Prism",
+      "description": "A bright plush chameleon who watches work with curious rotating eyes and a rainbow back.",
+      "status": "published",
+      "license": "CC-BY-4.0",
+      "manifest": "pets/prism/pet.json",
+      "preview": "pets/prism/preview.png",
+      "tags": ["codex-v2", "hermes", "plush", "chameleon", "rainbow"],
+      "derivedFrom": null
     }
   ]
 }

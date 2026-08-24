@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "run_dir": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix",
+  "spritesheet": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/final/spritesheet-extended.webp",
+  "validation": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/final/validation-extended.json",
+  "chroma_repairs": [
+    "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/qa/chroma-surgical-repair.json",
+    "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/qa/look-reregistration-chroma-repair.json",
+    "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/qa/running-left-surgical-chroma-repair.json"
+  ],
+  "running_left_repair": {
+    "incremental_review": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/qa/rows/running-left-repair/review.json",
+    "row_replacement": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/qa/running-left-row-replacement.json",
+    "final_visual_qa": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/qa/running-left-final-visual-qa.json"
+  },
+  "look_reregistration": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/qa/look-reregistration.json",
+  "contact_sheet": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/qa/contact-sheet-extended.png",
+  "direction_sheet": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/qa/look-directions.png",
+  "direction_semantics": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/qa/direction-semantics.json",
+  "blind_direction_validation": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/qa/direction-blind-validation.json",
+  "continuity": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/qa/look-continuity.json",
+  "continuity_resolution": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/qa/continuity-review-resolution.json",
+  "final_visual_qa": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/qa/final-visual-qa.json",
+  "review": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/qa/review.json",
+  "package": "/home/mitchell/.codex/pets/prism",
+  "installed_spritesheet_sha256": "e8913d20aefc4340571153a7fc4183c441789602c68f8d2fc63c6046b1a38325"
+}

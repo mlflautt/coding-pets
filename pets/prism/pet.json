@@ -1,0 +1,14 @@
+{
+  "id": "prism",
+  "displayName": "Prism",
+  "description": "A bright plush chameleon who watches work with curious rotating eyes and a rainbow back.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "license": "CC-BY-4.0",
+  "catalog": {
+    "status": "published",
+    "previewPath": "preview.png",
+    "hermesNotesPath": "hermes.md",
+    "provenancePath": "provenance.json"
+  }
+}

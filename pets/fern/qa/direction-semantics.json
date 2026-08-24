@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "reviewed_at_normal_size": true,
+  "directions": [
+    {"degree":"000","verdict":"pass","expected":"up","observed":"chin lifted with the complete amber eye above head center","reason":"Rigid head pitch and eye rotation make the vertical up axis unmistakable."},
+    {"degree":"022.5","verdict":"pass","expected":"up-right","observed":"strong lifted-chin cue with a very shallow screen-right turn in the labeled loop","reason":"The vertical cue is clear; the small horizontal component is subtle in isolation but advances continuously toward 045 and the unambiguous 090 cardinal."},
+    {"degree":"045","verdict":"pass","expected":"up-right","observed":"balanced upward pitch and screen-right yaw","reason":"Head, eye, and neck occupy the intended upper-right quadrant."},
+    {"degree":"067.5","verdict":"pass","expected":"up-right","observed":"screen-right head turn with chin still visibly raised","reason":"Right axis dominates while the up axis remains readable."},
+    {"degree":"090","verdict":"pass","expected":"right","observed":"snout and complete amber eye clearly right of head center","reason":"The cardinal screen-right pose is unambiguous and passed the hard blind gate."},
+    {"degree":"112.5","verdict":"pass","expected":"down-right","observed":"screen-right yaw with a lowered eye and chin","reason":"Both horizontal-right and vertical-down cues are visible."},
+    {"degree":"135","verdict":"pass","expected":"down-right","observed":"lowered rigid head remains turned screen-right","reason":"The pose reads within the intended lower-right quadrant."},
+    {"degree":"157.5","verdict":"pass","expected":"down-right","observed":"near-down, nearly frontal pose retaining a subtle final screen-right component","reason":"The isolated horizontal vote is ambiguous, but labeled loop review confirms a continuous approach from 135 to the unmistakable 180 down cardinal without reversal."},
+    {"degree":"180","verdict":"pass","expected":"down","observed":"centered head with tucked chin and compressed neck","reason":"The cardinal down pose is unmistakable and passed the hard blind gate."},
+    {"degree":"202.5","verdict":"pass","expected":"down-left","observed":"strong downward pitch beginning a shallow screen-left yaw","reason":"The isolated horizontal vote is noisy near the down cardinal; the labeled loop advances continuously toward clear 225, 247.5, and 270 screen-left poses."},
+    {"degree":"225","verdict":"pass","expected":"down-left","observed":"clear screen-left turn with a subtle downward head pitch","reason":"Horizontal direction is unambiguous; the blind vertical cue is subtle, while ordered review places the pose naturally between 202.5 and 247.5 down-left."},
+    {"degree":"247.5","verdict":"pass","expected":"down-left","observed":"screen-left head turn with chin still visibly lowered","reason":"Left axis dominates while the down axis remains readable."},
+    {"degree":"270","verdict":"pass","expected":"left","observed":"snout and complete amber eye clearly left of head center","reason":"The cardinal screen-left pose is unambiguous and passed the hard blind gate."},
+    {"degree":"292.5","verdict":"pass","expected":"up-left","observed":"screen-left yaw with a lifted eye and chin","reason":"Both horizontal-left and vertical-up cues are visible."},
+    {"degree":"315","verdict":"pass","expected":"up-left","observed":"clear screen-left turn with a subtle lifted head pitch","reason":"Horizontal direction is unambiguous; the blind vertical cue is subtle, while ordered review places the pose naturally between 292.5 up-left and 337.5 near-up."},
+    {"degree":"337.5","verdict":"pass","expected":"up-left","observed":"near-up frontal pose retaining a subtle final screen-left component","reason":"The isolated horizontal vote is ambiguous, but labeled loop review confirms a continuous return from 315 to the unmistakable 000 up cardinal without reversal."}
+  ],
+  "continuity_resolution": {
+    "decision": "accept",
+    "severity": "minor",
+    "reviewed_by": "parent",
+    "warnings": [
+      "000->022.5 and 045->067.5 local diff outliers",
+      "135->157.5 local diff outlier",
+      "157.5->180 center and area transition warning",
+      "292.5->315 center-shift warning",
+      "337.5->000 area transition warning",
+      "transparent interior rows at 000 and 337.5"
+    ],
+    "evidence": "The final labeled normal-size direction sheet shows a screen-right family in row 9, screen-left family in row 10, and unmistakable hard cardinals. The 000/337.5 transparency detections are intentional negative space between limbs and wing/body contours, not holes through Fern. Other metric outliers match intended three-quarter occlusion and near-cardinal silhouette changes; there is no clipping, detached part, identity break, or wrong-quadrant reversal."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "visual_qa": "pass",
+  "qa_note": "Failed and review now ease through their repaired transitions without visible pops, scale jumps, clipping, or semantic drift; row-zero remains unclipped and no other row regressed.",
+  "repair_rows": [],
+  "review_warnings": [
+    "Row-zero idle repair uses clean component extraction with no review warnings or edge-contact pixels.",
+    "Review stable-slots extraction is accepted because playback is stable and unclipped.",
+    "Intermediate blind-axis uncertainties are accepted from the labeled clockwise loop with no wrong quadrant or reversal.",
+    "Continuity diff outliers show no conspicuous snap, scale pop, or registration jump at normal size.",
+    "Alpha-hole flags are clean natural gaps between limbs and torso or legs."
+  ]
+}

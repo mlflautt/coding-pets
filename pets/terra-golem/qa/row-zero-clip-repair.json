@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "row": 0,
+  "state": "idle",
+  "source": "/home/mitchell/.codex/generated_images/01a0349d-3a53-76c3-8f5d-966ba40749ec/exec-39b6eae1-1165-44ea-b49f-87e551c138ce.png",
+  "extraction_method": "components",
+  "frames": 6,
+  "edge_contact_pixels": 0,
+  "minimum_horizontal_clearance_pixels": 8,
+  "minimum_vertical_clearance_pixels": 5,
+  "visual_qa": "pass",
+  "qa_note": "Regenerated as six separated idle poses with complete narrowed arm envelopes and visible cell clearance.",
+  "repaired_at": "2026-08-24T16:38:48Z"
+}

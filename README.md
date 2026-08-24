@@ -4,6 +4,30 @@ A public catalogue of my custom animated pets made via iteration with the "hatch
 
 ## Meet the pets
 
+### Terra Golem
+
+[<img src="pets/terra-golem/preview.png" width="720" alt="Terra Golem idle, waving, and active-work poses">](pets/terra-golem/preview.png)
+
+A sturdy moss-covered stone golem with a rounded forest-green metal torso, warm wooden joints and belly panel, and twin amber visor eyes.
+
+[Character and motion guide](pets/terra-golem/hermes.md) · [Codex manifest](pets/terra-golem/pet.json) · [QA evidence](pets/terra-golem/qa/)
+
+### Fern
+
+[<img src="pets/fern/preview.png" width="720" alt="Fern idle, waving, and jumping poses">](pets/fern/preview.png)
+
+A compact jade-and-walnut forest dragon with angular armor, expressive amber eyes, and refined classic wings.
+
+[Character and motion guide](pets/fern/hermes.md) · [Codex manifest](pets/fern/pet.json) · [QA evidence](pets/fern/qa/)
+
+### Prism
+
+[<img src="pets/prism/preview.png" width="720" alt="Prism idle, waving, and jumping poses">](pets/prism/preview.png)
+
+A bright plush chameleon who watches work with curious rotating eyes and a rainbow back.
+
+[Character and motion guide](pets/prism/hermes.md) · [Codex manifest](pets/prism/pet.json) · [QA evidence](pets/prism/qa/)
+
 ### Calamus
 
 [<img src="pets/calamus/preview.png" width="720" alt="Calamus three-pose showcase">](pets/calamus/showcase/three-pose.png)
@@ -51,11 +75,12 @@ The canonical index is [`catalog.json`](catalog.json). Each pet lives under `pet
 ## Add a pet
 
 1. Copy `templates/pet/` to `pets/<pet-id>/`.
-2. Replace the placeholders and add the validated `spritesheet.webp` and a clear `preview.png`.
-3. Add selected visual iterations to `concept-development/` and record their role and outcome in its `README.md`. Keep rejected concepts clearly labeled; concepts are not shipped pet assets.
-4. Add a visible pet card near the top of this README so visitors can judge the pet immediately.
-5. Add the machine-readable entry to `catalog.json`.
-6. Run `python3 scripts/validate_catalog.py`.
+2. Replace the placeholders and add the validated `spritesheet.webp`.
+3. Select three characteristic shipped frames in `preview.json`, then run `python3 scripts/generate_public_preview.py pets/<pet-id>/preview.json`. See [`docs/PUBLIC_PREVIEWS.md`](docs/PUBLIC_PREVIEWS.md).
+4. Add selected visual iterations to `concept-development/` and record their role and outcome in its `README.md`. Keep rejected concepts clearly labeled; concepts are not shipped pet assets.
+5. Add a visible pet card near the top of this README so visitors can judge the pet immediately.
+6. Add the machine-readable entry to `catalog.json`.
+7. Run `python3 scripts/validate_catalog.py` and `python3 scripts/generate_public_preview.py pets/<pet-id>/preview.json --check`.
 
 New Codex pets use the v2 atlas contract: `1536×2288`, `192×208` cells, 8 columns, 11 rows, and `spriteVersionNumber: 2`. The first nine rows contain app states; the final two contain 16 clockwise look directions.
 

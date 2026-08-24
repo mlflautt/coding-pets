@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "run_dir": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/fern-hatch/run",
+  "spritesheet": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/fern-hatch/run/final/spritesheet-extended.webp",
+  "validation": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/fern-hatch/run/final/validation-extended.json",
+  "chroma_despill": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/fern-hatch/run/qa/chroma-despill-extended.json",
+  "contact_sheet": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/fern-hatch/run/qa/contact-sheet-extended.png",
+  "direction_sheet": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/fern-hatch/run/qa/look-directions.png",
+  "direction_semantics": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/fern-hatch/run/qa/direction-semantics.json",
+  "blind_direction_validation": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/fern-hatch/run/qa/direction-blind-validation.json",
+  "blind_review_resolution": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/fern-hatch/run/qa/blind-review-resolution.json",
+  "continuity": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/fern-hatch/run/qa/look-continuity.json",
+  "review": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/fern-hatch/run/qa/review.json",
+  "package": "/home/mitchell/.codex/pets/fern",
+  "deliverables": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/outputs/fern-hatch"
+}

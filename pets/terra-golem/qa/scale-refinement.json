@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "reference_row": "idle",
+  "diagnosis": {
+    "running-left": "The prior generated repair was uniformly undersized versus idle and running-right.",
+    "waiting": "Frames 1 and 3 changed head, torso, belly, and limb scale inside the loop."
+  },
+  "repairs": [
+    {
+      "row": 2,
+      "state": "running-left",
+      "method": "complete grounded row regeneration",
+      "result": "Eight connected leftward gait poses now match running-right head, torso, belly, shoulder, and limb scale while retaining safe margins."
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "method": "complete grounded row regeneration with a narrow planted pose family",
+      "result": "All six frames now share a 198-pixel occupied height, stable baseline, and consistent anatomy without wide-arm fit shrinkage."
+    }
+  ],
+  "independent_visual_qa": {
+    "verdict": "pass",
+    "note": "Rows 2 and 6 preserve coherent Terra Golem anatomy and pixel scale without size popping, cropping, overlap, or detached artifacts."
+  },
+  "unchanged_rows": [0, 1, 3, 4, 5, 7, 8, 9, 10]
+}

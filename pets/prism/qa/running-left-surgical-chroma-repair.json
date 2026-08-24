@@ -1,0 +1,468 @@
+{
+  "operation": "user-authorized surgical residual chroma fringe repair",
+  "atlas": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/final/spritesheet-extended.png",
+  "chroma_key": "#00FFFF",
+  "validator_distance_threshold": 96.0,
+  "validator_edge_radius": 2,
+  "validator_alpha_minimum": 16,
+  "changed_pixel_count": 13,
+  "expected_changed_pixel_count": 13,
+  "only_rgb_changed": true,
+  "changes": [
+    {
+      "row": 2,
+      "column": 2,
+      "local_target": [
+        124,
+        86
+      ],
+      "atlas_target": [
+        508,
+        502
+      ],
+      "local_source": [
+        123,
+        86
+      ],
+      "before_rgba": [
+        3,
+        163,
+        230,
+        255
+      ],
+      "source_rgba": [
+        49,
+        141,
+        206,
+        252
+      ],
+      "after_rgba": [
+        49,
+        141,
+        206,
+        255
+      ],
+      "alpha_preserved": true
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "local_target": [
+        125,
+        86
+      ],
+      "atlas_target": [
+        509,
+        502
+      ],
+      "local_source": [
+        124,
+        85
+      ],
+      "before_rgba": [
+        3,
+        163,
+        230,
+        161
+      ],
+      "source_rgba": [
+        180,
+        96,
+        74,
+        119
+      ],
+      "after_rgba": [
+        180,
+        96,
+        74,
+        161
+      ],
+      "alpha_preserved": true
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "local_target": [
+        123,
+        87
+      ],
+      "atlas_target": [
+        507,
+        503
+      ],
+      "local_source": [
+        123,
+        86
+      ],
+      "before_rgba": [
+        3,
+        163,
+        230,
+        255
+      ],
+      "source_rgba": [
+        49,
+        141,
+        206,
+        252
+      ],
+      "after_rgba": [
+        49,
+        141,
+        206,
+        255
+      ],
+      "alpha_preserved": true
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "local_target": [
+        124,
+        87
+      ],
+      "atlas_target": [
+        508,
+        503
+      ],
+      "local_source": [
+        123,
+        86
+      ],
+      "before_rgba": [
+        3,
+        163,
+        230,
+        129
+      ],
+      "source_rgba": [
+        49,
+        141,
+        206,
+        252
+      ],
+      "after_rgba": [
+        49,
+        141,
+        206,
+        129
+      ],
+      "alpha_preserved": true
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "local_target": [
+        125,
+        87
+      ],
+      "atlas_target": [
+        509,
+        503
+      ],
+      "local_source": [
+        125,
+        89
+      ],
+      "before_rgba": [
+        3,
+        163,
+        230,
+        132
+      ],
+      "source_rgba": [
+        3,
+        162,
+        229,
+        228
+      ],
+      "after_rgba": [
+        3,
+        162,
+        229,
+        132
+      ],
+      "alpha_preserved": true
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "local_target": [
+        122,
+        88
+      ],
+      "atlas_target": [
+        506,
+        504
+      ],
+      "local_source": [
+        122,
+        87
+      ],
+      "before_rgba": [
+        3,
+        163,
+        230,
+        252
+      ],
+      "source_rgba": [
+        60,
+        136,
+        200,
+        250
+      ],
+      "after_rgba": [
+        60,
+        136,
+        200,
+        252
+      ],
+      "alpha_preserved": true
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "local_target": [
+        123,
+        88
+      ],
+      "atlas_target": [
+        507,
+        504
+      ],
+      "local_source": [
+        122,
+        87
+      ],
+      "before_rgba": [
+        3,
+        163,
+        230,
+        252
+      ],
+      "source_rgba": [
+        60,
+        136,
+        200,
+        250
+      ],
+      "after_rgba": [
+        60,
+        136,
+        200,
+        252
+      ],
+      "alpha_preserved": true
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "local_target": [
+        124,
+        88
+      ],
+      "atlas_target": [
+        508,
+        504
+      ],
+      "local_source": [
+        125,
+        89
+      ],
+      "before_rgba": [
+        3,
+        163,
+        230,
+        184
+      ],
+      "source_rgba": [
+        3,
+        162,
+        229,
+        228
+      ],
+      "after_rgba": [
+        3,
+        162,
+        229,
+        184
+      ],
+      "alpha_preserved": true
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "local_target": [
+        122,
+        89
+      ],
+      "atlas_target": [
+        506,
+        505
+      ],
+      "local_source": [
+        122,
+        90
+      ],
+      "before_rgba": [
+        3,
+        163,
+        230,
+        255
+      ],
+      "source_rgba": [
+        4,
+        160,
+        228,
+        116
+      ],
+      "after_rgba": [
+        4,
+        160,
+        228,
+        255
+      ],
+      "alpha_preserved": true
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "local_target": [
+        123,
+        89
+      ],
+      "atlas_target": [
+        507,
+        505
+      ],
+      "local_source": [
+        124,
+        90
+      ],
+      "before_rgba": [
+        3,
+        163,
+        230,
+        248
+      ],
+      "source_rgba": [
+        4,
+        160,
+        228,
+        246
+      ],
+      "after_rgba": [
+        4,
+        160,
+        228,
+        248
+      ],
+      "alpha_preserved": true
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "local_target": [
+        124,
+        89
+      ],
+      "atlas_target": [
+        508,
+        505
+      ],
+      "local_source": [
+        124,
+        90
+      ],
+      "before_rgba": [
+        3,
+        163,
+        230,
+        255
+      ],
+      "source_rgba": [
+        4,
+        160,
+        228,
+        246
+      ],
+      "after_rgba": [
+        4,
+        160,
+        228,
+        255
+      ],
+      "alpha_preserved": true
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "local_target": [
+        123,
+        90
+      ],
+      "atlas_target": [
+        507,
+        506
+      ],
+      "local_source": [
+        123,
+        91
+      ],
+      "before_rgba": [
+        3,
+        163,
+        230,
+        255
+      ],
+      "source_rgba": [
+        4,
+        157,
+        225,
+        255
+      ],
+      "after_rgba": [
+        4,
+        157,
+        225,
+        255
+      ],
+      "alpha_preserved": true
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "local_target": [
+        122,
+        92
+      ],
+      "atlas_target": [
+        506,
+        508
+      ],
+      "local_source": [
+        123,
+        92
+      ],
+      "before_rgba": [
+        2,
+        170,
+        241,
+        255
+      ],
+      "source_rgba": [
+        3,
+        144,
+        204,
+        255
+      ],
+      "after_rgba": [
+        3,
+        144,
+        204,
+        255
+      ],
+      "alpha_preserved": true
+    }
+  ]
+}

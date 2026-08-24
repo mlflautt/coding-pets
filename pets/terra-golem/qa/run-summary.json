@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "run_dir": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/terra-golem-run",
+  "spritesheet": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/terra-golem-run/final/spritesheet-extended.webp",
+  "validation": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/terra-golem-run/final/validation-extended.json",
+  "chroma_despill": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/terra-golem-run/qa/chroma-despill-extended.json",
+  "contact_sheet": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/terra-golem-run/qa/contact-sheet-extended.png",
+  "direction_sheet": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/terra-golem-run/qa/look-directions.png",
+  "direction_semantics": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/terra-golem-run/qa/direction-semantics.json",
+  "blind_direction_validation": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/terra-golem-run/qa/direction-blind-validation.json",
+  "blind_review_resolution": null,
+  "continuity": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/terra-golem-run/qa/look-continuity.json",
+  "review": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/terra-golem-run/qa/review.json",
+  "final_visual_qa": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/terra-golem-run/qa/final-visual-qa.json",
+  "package": "/home/mitchell/.codex/pets/terra-golem",
+  "scale_refinement": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/terra-golem-run/qa/scale-refinement.json",
+  "row_zero_clip_repair": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/terra-golem-run/qa/row-zero-clip-repair.json",
+  "animation_smoothing_repair": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/terra-golem-run/qa/animation-smoothing-repair.json",
+  "refined_at": "2026-08-24T16:59:03Z"
+}

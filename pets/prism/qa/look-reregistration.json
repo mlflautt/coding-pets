@@ -1,0 +1,363 @@
+{
+  "operation": "complete 16-pose shared-scale and registration repair",
+  "atlas": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/final/spritesheet-extended.png",
+  "standard_rows_unchanged": true,
+  "shared_base_scale": 1.6,
+  "target_center_x": 96,
+  "target_baseline_y": 190,
+  "continuity_compensation": "small perspective-area taper at 090\u2192112.5 and 337.5\u2192000",
+  "frames": [
+    {
+      "degree": "000",
+      "row": 9,
+      "column": 0,
+      "shared_base_scale": 1.6,
+      "continuity_scale": 1.0,
+      "effective_scale": 1.6,
+      "before_bbox": [
+        78,
+        86,
+        164,
+        190
+      ],
+      "after_bbox": [
+        27,
+        24,
+        165,
+        190
+      ],
+      "baseline": 190,
+      "center_x": 96
+    },
+    {
+      "degree": "022.5",
+      "row": 9,
+      "column": 1,
+      "shared_base_scale": 1.6,
+      "continuity_scale": 1.0,
+      "effective_scale": 1.6,
+      "before_bbox": [
+        80,
+        84,
+        166,
+        190
+      ],
+      "after_bbox": [
+        27,
+        20,
+        165,
+        190
+      ],
+      "baseline": 190,
+      "center_x": 96
+    },
+    {
+      "degree": "045",
+      "row": 9,
+      "column": 2,
+      "shared_base_scale": 1.6,
+      "continuity_scale": 1.0,
+      "effective_scale": 1.6,
+      "before_bbox": [
+        76,
+        90,
+        175,
+        190
+      ],
+      "after_bbox": [
+        17,
+        30,
+        175,
+        190
+      ],
+      "baseline": 190,
+      "center_x": 96
+    },
+    {
+      "degree": "067.5",
+      "row": 9,
+      "column": 3,
+      "shared_base_scale": 1.6,
+      "continuity_scale": 1.0,
+      "effective_scale": 1.6,
+      "before_bbox": [
+        77,
+        92,
+        175,
+        190
+      ],
+      "after_bbox": [
+        18,
+        33,
+        175,
+        190
+      ],
+      "baseline": 190,
+      "center_x": 96
+    },
+    {
+      "degree": "090",
+      "row": 9,
+      "column": 4,
+      "shared_base_scale": 1.6,
+      "continuity_scale": 1.0,
+      "effective_scale": 1.6,
+      "before_bbox": [
+        77,
+        94,
+        187,
+        190
+      ],
+      "after_bbox": [
+        8,
+        36,
+        184,
+        190
+      ],
+      "baseline": 190,
+      "center_x": 96
+    },
+    {
+      "degree": "112.5",
+      "row": 9,
+      "column": 5,
+      "shared_base_scale": 1.6,
+      "continuity_scale": 1.13,
+      "effective_scale": 1.8079999999999998,
+      "before_bbox": [
+        80,
+        108,
+        164,
+        190
+      ],
+      "after_bbox": [
+        20,
+        42,
+        172,
+        190
+      ],
+      "baseline": 190,
+      "center_x": 96
+    },
+    {
+      "degree": "135",
+      "row": 9,
+      "column": 6,
+      "shared_base_scale": 1.6,
+      "continuity_scale": 1.157,
+      "effective_scale": 1.8512000000000002,
+      "before_bbox": [
+        84,
+        109,
+        159,
+        190
+      ],
+      "after_bbox": [
+        26,
+        40,
+        165,
+        190
+      ],
+      "baseline": 190,
+      "center_x": 96
+    },
+    {
+      "degree": "157.5",
+      "row": 9,
+      "column": 7,
+      "shared_base_scale": 1.6,
+      "continuity_scale": 1.17,
+      "effective_scale": 1.8719999999999999,
+      "before_bbox": [
+        85,
+        114,
+        156,
+        190
+      ],
+      "after_bbox": [
+        30,
+        48,
+        163,
+        190
+      ],
+      "baseline": 190,
+      "center_x": 96
+    },
+    {
+      "degree": "180",
+      "row": 10,
+      "column": 0,
+      "shared_base_scale": 1.6,
+      "continuity_scale": 1.075,
+      "effective_scale": 1.72,
+      "before_bbox": [
+        80,
+        112,
+        162,
+        190
+      ],
+      "after_bbox": [
+        26,
+        56,
+        167,
+        190
+      ],
+      "baseline": 190,
+      "center_x": 96
+    },
+    {
+      "degree": "202.5",
+      "row": 10,
+      "column": 1,
+      "shared_base_scale": 1.6,
+      "continuity_scale": 1.044,
+      "effective_scale": 1.6704,
+      "before_bbox": [
+        77,
+        114,
+        164,
+        190
+      ],
+      "after_bbox": [
+        24,
+        63,
+        169,
+        190
+      ],
+      "baseline": 190,
+      "center_x": 96
+    },
+    {
+      "degree": "225",
+      "row": 10,
+      "column": 2,
+      "shared_base_scale": 1.6,
+      "continuity_scale": 1.03,
+      "effective_scale": 1.6480000000000001,
+      "before_bbox": [
+        76,
+        114,
+        162,
+        190
+      ],
+      "after_bbox": [
+        25,
+        65,
+        167,
+        190
+      ],
+      "baseline": 190,
+      "center_x": 96
+    },
+    {
+      "degree": "247.5",
+      "row": 10,
+      "column": 3,
+      "shared_base_scale": 1.6,
+      "continuity_scale": 1.0,
+      "effective_scale": 1.6,
+      "before_bbox": [
+        75,
+        112,
+        161,
+        190
+      ],
+      "after_bbox": [
+        27,
+        65,
+        165,
+        190
+      ],
+      "baseline": 190,
+      "center_x": 96
+    },
+    {
+      "degree": "270",
+      "row": 10,
+      "column": 4,
+      "shared_base_scale": 1.6,
+      "continuity_scale": 1.0,
+      "effective_scale": 1.6,
+      "before_bbox": [
+        76,
+        108,
+        161,
+        190
+      ],
+      "after_bbox": [
+        28,
+        59,
+        164,
+        190
+      ],
+      "baseline": 190,
+      "center_x": 96
+    },
+    {
+      "degree": "292.5",
+      "row": 10,
+      "column": 5,
+      "shared_base_scale": 1.6,
+      "continuity_scale": 1.02,
+      "effective_scale": 1.6320000000000001,
+      "before_bbox": [
+        77,
+        103,
+        160,
+        190
+      ],
+      "after_bbox": [
+        28,
+        48,
+        163,
+        190
+      ],
+      "baseline": 190,
+      "center_x": 96
+    },
+    {
+      "degree": "315",
+      "row": 10,
+      "column": 6,
+      "shared_base_scale": 1.6,
+      "continuity_scale": 1.04,
+      "effective_scale": 1.6640000000000001,
+      "before_bbox": [
+        79,
+        98,
+        161,
+        190
+      ],
+      "after_bbox": [
+        28,
+        37,
+        164,
+        190
+      ],
+      "baseline": 190,
+      "center_x": 96
+    },
+    {
+      "degree": "337.5",
+      "row": 10,
+      "column": 7,
+      "shared_base_scale": 1.6,
+      "continuity_scale": 1.07,
+      "effective_scale": 1.7120000000000002,
+      "before_bbox": [
+        79,
+        98,
+        160,
+        190
+      ],
+      "after_bbox": [
+        26,
+        32,
+        165,
+        190
+      ],
+      "baseline": 190,
+      "center_x": 96
+    }
+  ]
+}

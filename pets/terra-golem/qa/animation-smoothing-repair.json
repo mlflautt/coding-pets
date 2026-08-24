@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "visual_qa": "pass",
+  "rows": [
+    {
+      "row": 5,
+      "state": "failed",
+      "frames": 8,
+      "target_transition": "4->5",
+      "source": "/home/mitchell/.codex/generated_images/01a032b7-5114-7a60-9b7c-362c7999e56b/exec-18d3e30d-84c8-4f9a-89a4-715d92003f5d.png",
+      "old_silhouette_diff_pixels": 4416,
+      "new_silhouette_diff_pixels": 2490,
+      "reduction_percent": 43.6,
+      "qa_note": "Softly eased planted-foot slump and recovery; no standing-to-seated jump."
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "frames": 6,
+      "target_transition": "3->4",
+      "source": "/home/mitchell/.codex/generated_images/01a032c8-7c3f-7361-9eeb-bef7d090de67/exec-0653a1a8-8d37-43ab-b030-3a35269a5c7a.png",
+      "old_silhouette_diff_pixels": 2623,
+      "new_silhouette_diff_pixels": 1685,
+      "reduction_percent": 35.8,
+      "qa_note": "Restrained head-and-eye focus arc with stable hands and body placement."
+    }
+  ],
+  "look_rows_unchanged": true,
+  "repaired_at": "2026-08-24T16:59:03Z"
+}

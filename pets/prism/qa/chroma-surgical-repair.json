@@ -1,0 +1,293 @@
+{
+  "operation": "user-authorized surgical residual chroma fringe repair",
+  "atlas": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/work/prism-hatch-fix/final/spritesheet-extended.png",
+  "chroma_key": "#00FFFF",
+  "validator_distance_threshold": 96.0,
+  "validator_edge_radius": 2,
+  "validator_alpha_minimum": 16,
+  "changed_pixel_count": 8,
+  "expected_changed_pixel_count": 8,
+  "only_rgb_changed": true,
+  "changes": [
+    {
+      "row": 0,
+      "column": 2,
+      "local_target": [
+        150,
+        66
+      ],
+      "atlas_target": [
+        534,
+        66
+      ],
+      "local_source": [
+        149,
+        66
+      ],
+      "before_rgba": [
+        2,
+        163,
+        232,
+        147
+      ],
+      "source_rgba": [
+        4,
+        154,
+        226,
+        192
+      ],
+      "after_rgba": [
+        4,
+        154,
+        226,
+        147
+      ],
+      "alpha_preserved": true
+    },
+    {
+      "row": 0,
+      "column": 2,
+      "local_target": [
+        151,
+        66
+      ],
+      "atlas_target": [
+        535,
+        66
+      ],
+      "local_source": [
+        152,
+        66
+      ],
+      "before_rgba": [
+        2,
+        163,
+        232,
+        139
+      ],
+      "source_rgba": [
+        126,
+        215,
+        158,
+        185
+      ],
+      "after_rgba": [
+        126,
+        215,
+        158,
+        139
+      ],
+      "alpha_preserved": true
+    },
+    {
+      "row": 0,
+      "column": 2,
+      "local_target": [
+        150,
+        67
+      ],
+      "atlas_target": [
+        534,
+        67
+      ],
+      "local_source": [
+        150,
+        68
+      ],
+      "before_rgba": [
+        2,
+        163,
+        232,
+        255
+      ],
+      "source_rgba": [
+        2,
+        161,
+        233,
+        243
+      ],
+      "after_rgba": [
+        2,
+        161,
+        233,
+        255
+      ],
+      "alpha_preserved": true
+    },
+    {
+      "row": 0,
+      "column": 2,
+      "local_target": [
+        151,
+        67
+      ],
+      "atlas_target": [
+        535,
+        67
+      ],
+      "local_source": [
+        152,
+        67
+      ],
+      "before_rgba": [
+        2,
+        163,
+        232,
+        162
+      ],
+      "source_rgba": [
+        130,
+        216,
+        156,
+        161
+      ],
+      "after_rgba": [
+        130,
+        216,
+        156,
+        162
+      ],
+      "alpha_preserved": true
+    },
+    {
+      "row": 10,
+      "column": 5,
+      "local_target": [
+        156,
+        140
+      ],
+      "atlas_target": [
+        1116,
+        2220
+      ],
+      "local_source": [
+        156,
+        139
+      ],
+      "before_rgba": [
+        7,
+        165,
+        231,
+        67
+      ],
+      "source_rgba": [
+        21,
+        157,
+        223,
+        22
+      ],
+      "after_rgba": [
+        21,
+        157,
+        223,
+        67
+      ],
+      "alpha_preserved": true
+    },
+    {
+      "row": 10,
+      "column": 5,
+      "local_target": [
+        155,
+        141
+      ],
+      "atlas_target": [
+        1115,
+        2221
+      ],
+      "local_source": [
+        154,
+        141
+      ],
+      "before_rgba": [
+        7,
+        165,
+        231,
+        255
+      ],
+      "source_rgba": [
+        43,
+        129,
+        196,
+        253
+      ],
+      "after_rgba": [
+        43,
+        129,
+        196,
+        255
+      ],
+      "alpha_preserved": true
+    },
+    {
+      "row": 10,
+      "column": 5,
+      "local_target": [
+        156,
+        141
+      ],
+      "atlas_target": [
+        1116,
+        2221
+      ],
+      "local_source": [
+        155,
+        142
+      ],
+      "before_rgba": [
+        7,
+        165,
+        231,
+        122
+      ],
+      "source_rgba": [
+        36,
+        135,
+        205,
+        189
+      ],
+      "after_rgba": [
+        36,
+        135,
+        205,
+        122
+      ],
+      "alpha_preserved": true
+    },
+    {
+      "row": 10,
+      "column": 5,
+      "local_target": [
+        156,
+        142
+      ],
+      "atlas_target": [
+        1116,
+        2222
+      ],
+      "local_source": [
+        155,
+        142
+      ],
+      "before_rgba": [
+        7,
+        165,
+        231,
+        164
+      ],
+      "source_rgba": [
+        36,
+        135,
+        205,
+        189
+      ],
+      "after_rgba": [
+        36,
+        135,
+        205,
+        164
+      ],
+      "alpha_preserved": true
+    }
+  ]
+}

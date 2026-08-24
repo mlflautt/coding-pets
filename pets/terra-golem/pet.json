@@ -1,0 +1,14 @@
+{
+  "id": "terra-golem",
+  "displayName": "Terra Golem",
+  "description": "A sturdy moss-covered stone golem with a rounded forest-green metal torso, warm wooden joints and belly panel, and twin amber visor eyes.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "license": "CC-BY-4.0",
+  "catalog": {
+    "status": "published",
+    "previewPath": "preview.png",
+    "hermesNotesPath": "hermes.md",
+    "provenancePath": "provenance.json"
+  }
+}

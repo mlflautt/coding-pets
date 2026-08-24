@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "decision": "accept",
+  "severity": "minor",
+  "hard_gates_passed": true,
+  "reviewed_by": "parent",
+  "warnings_reviewed": [
+    "022.5 horizontal vote read screen-left in isolation",
+    "337.5 horizontal vote was ambiguous",
+    "202.5 horizontal vote read screen-right in isolation",
+    "157.5 horizontal vote was ambiguous",
+    "225 and 315 vertical votes were ambiguous"
+  ],
+  "evidence": "All four hard cardinal axes passed blind validation. At labeled normal pet size, the warned near-cardinal frames sit in the correct ordered quadrants and transition into adjacent unambiguous poses without reversal. The warned vertical pairs preserve the correct horizontal family and have appropriately subtle pitch for intermediate directions.",
+  "blocking_repairs_required": []
+}
