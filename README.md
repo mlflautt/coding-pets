@@ -22,22 +22,6 @@ A compact jade-and-walnut forest dragon with angular armor, expressive amber eye
 
 [Character and motion guide](pets/fern/hermes.md) · [Codex manifest](pets/fern/pet.json) · [QA evidence](pets/fern/qa/)
 
-### Prism
-
-[<img src="pets/prism/preview.png" width="720" alt="Prism public preview">](pets/prism/preview.png)
-
-A bright plush chameleon who watches work with curious rotating eyes and a rainbow back.
-
-[Character and motion guide](pets/prism/hermes.md) · [Codex manifest](pets/prism/pet.json) · [QA evidence](pets/prism/qa/)
-
-### Terralisk
-
-[<img src="pets/terralisk/preview.png" width="720" alt="Terralisk public preview">](pets/terralisk/preview.png)
-
-A graphite salamander-gecko familiar with cyan-and-amber living circuitry, vent-like heat-fin gills, and a precise spiral tail.
-
-[Character and motion guide](pets/terralisk/hermes.md) · [Codex manifest](pets/terralisk/pet.json) · [QA evidence](pets/terralisk/qa/)
-
 ### Chromia
 
 [<img src="pets/chromia/preview.png" width="720" alt="Chromia public preview">](pets/chromia/preview.png)

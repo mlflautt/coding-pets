@@ -119,40 +119,6 @@
       "derivedFrom": null
     },
     {
-      "id": "prism",
-      "displayName": "Prism",
-      "description": "A bright plush chameleon who watches work with curious rotating eyes and a rainbow back.",
-      "status": "published",
-      "license": "CC-BY-4.0",
-      "manifest": "pets/prism/pet.json",
-      "preview": "pets/prism/preview.png",
-      "tags": [
-        "codex-v2",
-        "hermes",
-        "plush",
-        "chameleon",
-        "rainbow"
-      ],
-      "derivedFrom": null
-    },
-    {
-      "id": "terralisk",
-      "displayName": "Terralisk",
-      "description": "A graphite salamander-gecko familiar with cyan-and-amber living circuitry, vent-like heat-fin gills, and a precise spiral tail.",
-      "status": "published",
-      "license": "CC-BY-4.0",
-      "manifest": "pets/terralisk/pet.json",
-      "preview": "pets/terralisk/preview.png",
-      "tags": [
-        "codex-v2",
-        "hermes",
-        "3d-toy",
-        "salamander-gecko",
-        "living-circuitry"
-      ],
-      "derivedFrom": null
-    },
-    {
       "id": "chromia",
       "displayName": "Chromia",
       "description": "A vivid recursive cuttlefish familiar inhabiting the Fractal Terra computational reef.",

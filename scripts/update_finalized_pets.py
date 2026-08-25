@@ -65,20 +65,22 @@ def sha256_file(path: Path) -> str:
     return digest.hexdigest()
 
 
-def discover() -> list[ManagedPet]:
+def discover() -> tuple[list[ManagedPet], set[str]]:
     managed: list[ManagedPet] = []
+    withdrawn: set[str] = set()
     for manifest_path in sorted(PETS_ROOT.glob("*/pet.json")):
         manifest = load_json(manifest_path)
         catalog = manifest.get("catalog")
         if not isinstance(catalog, dict) or catalog.get("autoPublish") is not True:
-            continue
-        if catalog.get("status") != "published":
             continue
 
         directory = manifest_path.parent
         pet_id = manifest.get("id")
         if pet_id != directory.name:
             raise UpdateError(f"{manifest_path.relative_to(ROOT)} id must match its directory")
+        if catalog.get("status") != "published":
+            withdrawn.add(pet_id)
+            continue
         for field in ("displayName", "description", "license"):
             if not isinstance(manifest.get(field), str) or not manifest[field].strip():
                 raise UpdateError(f"{pet_id}: pet.json requires non-empty {field}")
@@ -113,7 +115,10 @@ def discover() -> list[ManagedPet]:
             preview_bytes=preview_bytes,
             preview_path=preview_path,
         ))
-    return sorted(managed, key=lambda pet: (pet.catalog["readmeOrder"], pet.pet_id))
+    return (
+        sorted(managed, key=lambda pet: (pet.catalog["readmeOrder"], pet.pet_id)),
+        withdrawn,
+    )
 
 
 def desired_catalog_entry(pet: ManagedPet) -> dict:
@@ -130,11 +135,15 @@ def desired_catalog_entry(pet: ManagedPet) -> dict:
     }
 
 
-def updated_catalog(catalog: dict, managed: list[ManagedPet]) -> dict:
+def updated_catalog(catalog: dict, managed: list[ManagedPet], withdrawn: set[str]) -> dict:
     entries = catalog.get("pets")
     if not isinstance(entries, list):
         raise UpdateError("catalog.json pets must be an array")
-    result = list(entries)
+    result = [
+        entry
+        for entry in entries
+        if not (isinstance(entry, dict) and entry.get("id") in withdrawn)
+    ]
     indexes = {
         entry.get("id"): index
         for index, entry in enumerate(result)
@@ -192,10 +201,10 @@ def main() -> int:
     args = parser.parse_args()
 
     try:
-        managed = discover()
+        managed, withdrawn = discover()
         catalog = load_json(CATALOG_PATH)
         readme = README_PATH.read_text(encoding="utf-8")
-        catalog_after = updated_catalog(catalog, managed)
+        catalog_after = updated_catalog(catalog, managed, withdrawn)
         readme_after = updated_readme(readme, managed)
     except (OSError, UpdateError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
@@ -233,7 +242,10 @@ def main() -> int:
                 print(f"STALE: {path}")
             print("Run: python3 scripts/update_finalized_pets.py", file=sys.stderr)
             return 1
-        print(f"OK: {len(managed)} auto-published pet(s) are current")
+        print(
+            f"OK: {len(managed)} auto-published pet(s) are current; "
+            f"{len(withdrawn)} draft pet(s) are withheld"
+        )
         return 0
 
     for path, payload in pending_writes:
@@ -241,7 +253,10 @@ def main() -> int:
         path.write_bytes(payload)
         print(f"UPDATED: {path.relative_to(ROOT)}")
     if not pending_writes:
-        print(f"OK: {len(managed)} auto-published pet(s) already current")
+        print(
+            f"OK: {len(managed)} auto-published pet(s) already current; "
+            f"{len(withdrawn)} draft pet(s) are withheld"
+        )
     return 0
 
 

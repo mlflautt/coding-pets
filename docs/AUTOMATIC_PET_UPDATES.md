@@ -54,3 +54,7 @@ python3 scripts/validate_catalog.py
 ```
 
 Both commands must pass before publication.
+
+## Temporarily withdraw a pet
+
+Change an opted-in pet's `catalog.status` in `pet.json` from `published` to `draft`, then run the updater. The pet is removed from `catalog.json` and the README showcase, while its complete package remains under `pets/<pet-id>/` for further development. Restore `published` and rerun the updater when it is ready to share again.
