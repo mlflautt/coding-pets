@@ -17,6 +17,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: python -m pip install Pillow
+      - name: Verify finalized-pet derived updates
+        run: python scripts/update_finalized_pets.py --check
       - run: python scripts/validate_catalog.py
       - name: Verify reproducible public previews
         shell: bash

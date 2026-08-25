@@ -1,0 +1,17 @@
+{
+  "previewVersion": 1,
+  "sourceAtlas": "spritesheet.webp",
+  "output": "preview.png",
+  "canvas": {
+    "width": 1800,
+    "height": 720,
+    "backgroundTop": "#081328",
+    "backgroundBottom": "#22123B"
+  },
+  "resampling": "lanczos",
+  "poses": [
+    { "state": "idle", "frame": 0 },
+    { "state": "waving", "frame": 2 },
+    { "state": "running", "frame": 4 }
+  ]
+}

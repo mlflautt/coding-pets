@@ -9,6 +9,9 @@
     "status": "published",
     "previewPath": "preview.png",
     "hermesNotesPath": "hermes.md",
-    "provenancePath": "provenance.json"
+    "provenancePath": "provenance.json",
+    "autoPublish": true,
+    "readmeOrder": 40,
+    "tags": ["codex-v2", "hermes", "3d-toy", "salamander-gecko", "living-circuitry"]
   }
 }

@@ -1,0 +1,973 @@
+{
+  "ok": true,
+  "frames_root": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/idle/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18194,
+          "bbox": [
+            5,
+            30,
+            187,
+            177
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 365
+        },
+        {
+          "index": 1,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/idle/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18114,
+          "bbox": [
+            5,
+            30,
+            187,
+            177
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 358
+        },
+        {
+          "index": 2,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/idle/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18209,
+          "bbox": [
+            5,
+            30,
+            187,
+            177
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 374
+        },
+        {
+          "index": 3,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/idle/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18036,
+          "bbox": [
+            5,
+            30,
+            187,
+            177
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 357
+        },
+        {
+          "index": 4,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/idle/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18012,
+          "bbox": [
+            5,
+            31,
+            187,
+            177
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 330
+        },
+        {
+          "index": 5,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/idle/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18304,
+          "bbox": [
+            5,
+            30,
+            187,
+            178
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 358
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running-right/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14221,
+          "bbox": [
+            5,
+            46,
+            187,
+            162
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 293
+        },
+        {
+          "index": 1,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running-right/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11775,
+          "bbox": [
+            5,
+            55,
+            187,
+            152
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 271
+        },
+        {
+          "index": 2,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running-right/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12887,
+          "bbox": [
+            5,
+            50,
+            187,
+            157
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 359
+        },
+        {
+          "index": 3,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running-right/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12990,
+          "bbox": [
+            5,
+            50,
+            187,
+            158
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 306
+        },
+        {
+          "index": 4,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running-right/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12086,
+          "bbox": [
+            5,
+            52,
+            187,
+            155
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 340
+        },
+        {
+          "index": 5,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running-right/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12218,
+          "bbox": [
+            5,
+            53,
+            187,
+            155
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 331
+        },
+        {
+          "index": 6,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running-right/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16811,
+          "bbox": [
+            5,
+            37,
+            187,
+            171
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 391
+        },
+        {
+          "index": 7,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running-right/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17471,
+          "bbox": [
+            5,
+            39,
+            187,
+            168
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 303
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running-left/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14556,
+          "bbox": [
+            5,
+            43,
+            187,
+            164
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 347
+        },
+        {
+          "index": 1,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running-left/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13963,
+          "bbox": [
+            5,
+            44,
+            187,
+            164
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 389
+        },
+        {
+          "index": 2,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running-left/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13257,
+          "bbox": [
+            5,
+            48,
+            187,
+            160
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 302
+        },
+        {
+          "index": 3,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running-left/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13792,
+          "bbox": [
+            5,
+            45,
+            187,
+            163
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 376
+        },
+        {
+          "index": 4,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running-left/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13927,
+          "bbox": [
+            5,
+            45,
+            187,
+            162
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 374
+        },
+        {
+          "index": 5,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running-left/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12813,
+          "bbox": [
+            5,
+            48,
+            187,
+            159
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 334
+        },
+        {
+          "index": 6,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running-left/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13285,
+          "bbox": [
+            5,
+            45,
+            187,
+            162
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 365
+        },
+        {
+          "index": 7,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running-left/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13503,
+          "bbox": [
+            5,
+            47,
+            187,
+            160
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 332
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/waving/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17161,
+          "bbox": [
+            5,
+            35,
+            187,
+            173
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 212
+        },
+        {
+          "index": 1,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/waving/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16984,
+          "bbox": [
+            5,
+            35,
+            187,
+            172
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 227
+        },
+        {
+          "index": 2,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/waving/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17757,
+          "bbox": [
+            5,
+            35,
+            187,
+            173
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 219
+        },
+        {
+          "index": 3,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/waving/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17133,
+          "bbox": [
+            5,
+            35,
+            187,
+            173
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 206
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/jumping/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15800,
+          "bbox": [
+            5,
+            42,
+            187,
+            165
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 282
+        },
+        {
+          "index": 1,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/jumping/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17600,
+          "bbox": [
+            5,
+            33,
+            187,
+            174
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 322
+        },
+        {
+          "index": 2,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/jumping/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17732,
+          "bbox": [
+            5,
+            33,
+            187,
+            175
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 298
+        },
+        {
+          "index": 3,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/jumping/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18165,
+          "bbox": [
+            5,
+            31,
+            187,
+            176
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 315
+        },
+        {
+          "index": 4,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/jumping/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16193,
+          "bbox": [
+            5,
+            40,
+            187,
+            167
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 290
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/failed/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18082,
+          "bbox": [
+            5,
+            31,
+            187,
+            177
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 318
+        },
+        {
+          "index": 1,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/failed/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19168,
+          "bbox": [
+            5,
+            27,
+            187,
+            180
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 342
+        },
+        {
+          "index": 2,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/failed/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20046,
+          "bbox": [
+            5,
+            24,
+            187,
+            183
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 361
+        },
+        {
+          "index": 3,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/failed/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20425,
+          "bbox": [
+            5,
+            23,
+            187,
+            185
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 333
+        },
+        {
+          "index": 4,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/failed/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19434,
+          "bbox": [
+            5,
+            26,
+            187,
+            182
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 406
+        },
+        {
+          "index": 5,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/failed/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20241,
+          "bbox": [
+            5,
+            24,
+            187,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 356
+        },
+        {
+          "index": 6,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/failed/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20432,
+          "bbox": [
+            5,
+            23,
+            187,
+            185
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 369
+        },
+        {
+          "index": 7,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/failed/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19094,
+          "bbox": [
+            5,
+            27,
+            187,
+            180
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 345
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/waiting/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19989,
+          "bbox": [
+            5,
+            31,
+            187,
+            177
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 230
+        },
+        {
+          "index": 1,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/waiting/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21050,
+          "bbox": [
+            5,
+            25,
+            187,
+            183
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 234
+        },
+        {
+          "index": 2,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/waiting/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 23403,
+          "bbox": [
+            5,
+            19,
+            187,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 231
+        },
+        {
+          "index": 3,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/waiting/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 22872,
+          "bbox": [
+            5,
+            23,
+            187,
+            185
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 238
+        },
+        {
+          "index": 4,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/waiting/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19046,
+          "bbox": [
+            5,
+            32,
+            187,
+            175
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 215
+        },
+        {
+          "index": 5,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/waiting/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19891,
+          "bbox": [
+            5,
+            31,
+            187,
+            177
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 252
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18698,
+          "bbox": [
+            5,
+            28,
+            187,
+            179
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 252
+        },
+        {
+          "index": 1,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19381,
+          "bbox": [
+            5,
+            24,
+            187,
+            183
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 307
+        },
+        {
+          "index": 2,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19602,
+          "bbox": [
+            5,
+            23,
+            187,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 313
+        },
+        {
+          "index": 3,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19383,
+          "bbox": [
+            5,
+            24,
+            187,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 273
+        },
+        {
+          "index": 4,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19767,
+          "bbox": [
+            5,
+            22,
+            187,
+            185
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 250
+        },
+        {
+          "index": 5,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/running/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19210,
+          "bbox": [
+            5,
+            25,
+            187,
+            182
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 276
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/review/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19498,
+          "bbox": [
+            5,
+            28,
+            187,
+            179
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 407
+        },
+        {
+          "index": 1,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/review/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19823,
+          "bbox": [
+            5,
+            26,
+            187,
+            181
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 387
+        },
+        {
+          "index": 2,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/review/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19770,
+          "bbox": [
+            5,
+            25,
+            187,
+            182
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 390
+        },
+        {
+          "index": 3,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/review/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19856,
+          "bbox": [
+            5,
+            26,
+            187,
+            182
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 384
+        },
+        {
+          "index": 4,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/review/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20307,
+          "bbox": [
+            5,
+            24,
+            187,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 371
+        },
+        {
+          "index": 5,
+          "file": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/frames/review/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20169,
+          "bbox": [
+            5,
+            25,
+            187,
+            182
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 414
+        }
+      ]
+    }
+  ]
+}

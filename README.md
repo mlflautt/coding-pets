@@ -4,9 +4,11 @@ A public catalogue of my custom animated pets made via iteration with the "hatch
 
 ## Meet the pets
 
+<!-- BEGIN AUTO-PUBLISHED PETS -->
+
 ### Terra Golem
 
-[<img src="pets/terra-golem/preview.png" width="720" alt="Terra Golem idle, waving, and active-work poses">](pets/terra-golem/preview.png)
+[<img src="pets/terra-golem/preview.png" width="720" alt="Terra Golem public preview">](pets/terra-golem/preview.png)
 
 A sturdy moss-covered stone golem with a rounded forest-green metal torso, warm wooden joints and belly panel, and twin amber visor eyes.
 
@@ -14,7 +16,7 @@ A sturdy moss-covered stone golem with a rounded forest-green metal torso, warm 
 
 ### Fern
 
-[<img src="pets/fern/preview.png" width="720" alt="Fern idle, waving, and jumping poses">](pets/fern/preview.png)
+[<img src="pets/fern/preview.png" width="720" alt="Fern public preview">](pets/fern/preview.png)
 
 A compact jade-and-walnut forest dragon with angular armor, expressive amber eyes, and refined classic wings.
 
@@ -22,7 +24,7 @@ A compact jade-and-walnut forest dragon with angular armor, expressive amber eye
 
 ### Prism
 
-[<img src="pets/prism/preview.png" width="720" alt="Prism idle, waving, and jumping poses">](pets/prism/preview.png)
+[<img src="pets/prism/preview.png" width="720" alt="Prism public preview">](pets/prism/preview.png)
 
 A bright plush chameleon who watches work with curious rotating eyes and a rainbow back.
 
@@ -30,11 +32,21 @@ A bright plush chameleon who watches work with curious rotating eyes and a rainb
 
 ### Terralisk
 
-[<img src="pets/terralisk/preview.png" width="720" alt="Terralisk idle, waving, and jumping poses">](pets/terralisk/preview.png)
+[<img src="pets/terralisk/preview.png" width="720" alt="Terralisk public preview">](pets/terralisk/preview.png)
 
 A graphite salamander-gecko familiar with cyan-and-amber living circuitry, vent-like heat-fin gills, and a precise spiral tail.
 
 [Character and motion guide](pets/terralisk/hermes.md) · [Codex manifest](pets/terralisk/pet.json) · [QA evidence](pets/terralisk/qa/)
+
+### Chromia
+
+[<img src="pets/chromia/preview.png" width="720" alt="Chromia public preview">](pets/chromia/preview.png)
+
+A vivid recursive cuttlefish familiar inhabiting the Fractal Terra computational reef.
+
+[Character and motion guide](pets/chromia/hermes.md) · [Codex manifest](pets/chromia/pet.json) · [QA evidence](pets/chromia/qa/)
+
+<!-- END AUTO-PUBLISHED PETS -->
 
 ### Calamus
 
@@ -84,11 +96,10 @@ The canonical index is [`catalog.json`](catalog.json). Each pet lives under `pet
 
 1. Copy `templates/pet/` to `pets/<pet-id>/`.
 2. Replace the placeholders and add the validated `spritesheet.webp`.
-3. Select three characteristic shipped frames in `preview.json`, then run `python3 scripts/generate_public_preview.py pets/<pet-id>/preview.json`. See [`docs/PUBLIC_PREVIEWS.md`](docs/PUBLIC_PREVIEWS.md).
+3. Select three characteristic shipped frames in `preview.json`, then run `python3 scripts/update_finalized_pets.py`. See [`docs/AUTOMATIC_PET_UPDATES.md`](docs/AUTOMATIC_PET_UPDATES.md).
 4. Add selected visual iterations to `concept-development/` and record their role and outcome in its `README.md`. Keep rejected concepts clearly labeled; concepts are not shipped pet assets.
-5. Add a visible pet card near the top of this README so visitors can judge the pet immediately.
-6. Add the machine-readable entry to `catalog.json`.
-7. Run `python3 scripts/validate_catalog.py` and `python3 scripts/generate_public_preview.py pets/<pet-id>/preview.json --check`.
+5. Let the updater regenerate the public preview, provenance hashes, README card, and machine-readable catalogue entry.
+6. Run `python3 scripts/update_finalized_pets.py --check` and `python3 scripts/validate_catalog.py`.
 
 New Codex pets use the v2 atlas contract: `1536×2288`, `192×208` cells, 8 columns, 11 rows, and `spriteVersionNumber: 2`. The first nine rows contain app states; the final two contain 16 clockwise look directions.
 

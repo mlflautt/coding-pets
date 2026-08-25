@@ -18,6 +18,7 @@ Maintain portable pet packages that work in Codex and remain legible to Hermes A
 - Pet directory: `pets/<pet-id>/`
 - Required: `pet.json`, `spritesheet.webp`, `preview.png`, `hermes.md`, `provenance.json`
 - New deterministic public previews also include `preview.json`; legacy screenshot and showcase previews are exempt.
+- New packages should set `catalog.autoPublish: true`, `catalog.readmeOrder`, and `catalog.tags` in `pet.json`; `scripts/update_finalized_pets.py` then owns their preview, provenance hashes, catalogue entry, and README card.
 - Required QA: `qa/validation-extended.json`, `qa/chroma-despill-extended.json`, `qa/run-summary.json`
 - Required concept record: `concept-development/README.md`
 - Optional but encouraged: contact sheet, look-direction sheet, animation previews, and human review notes
@@ -27,6 +28,8 @@ Maintain portable pet packages that work in Codex and remain legible to Hermes A
 Run `python3 scripts/validate_catalog.py` before handing off. Visual quality still requires human or qualified visual-agent review; structural validation alone is insufficient.
 
 For a pet with `preview.json`, also run `python3 scripts/generate_public_preview.py pets/<pet-id>/preview.json --check`. The public preview must be reproduced from three shipped atlas cells; do not substitute concept art or regenerated character art.
+
+For an auto-published pet, run `python3 scripts/update_finalized_pets.py` before validation and `python3 scripts/update_finalized_pets.py --check` before handing off. Do not edit content between the README auto-publish markers by hand; derive it from finalized manifests.
 
 ## Creative behavior
 

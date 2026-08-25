@@ -33,3 +33,5 @@ Prefer three visibly different, flattering, semantically correct frames. Good st
 3. `running:2`, `review:2`, `jumping:2`, or a direction frame that best communicates the pet's distinctive motion language.
 
 Review the final composite at the README's displayed width before publication. Change only the frame choices in `preview.json`; never retouch an individual pose in `preview.png`.
+
+For opted-in finalized packages, `scripts/update_finalized_pets.py` performs generation and verification together while also refreshing provenance, the catalogue entry, and the README card. See [`AUTOMATIC_PET_UPDATES.md`](AUTOMATIC_PET_UPDATES.md).

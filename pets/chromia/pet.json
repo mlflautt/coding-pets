@@ -1,7 +1,7 @@
 {
-  "id": "prism",
-  "displayName": "Prism",
-  "description": "A bright plush chameleon who watches work with curious rotating eyes and a rainbow back.",
+  "id": "chromia",
+  "displayName": "Chromia",
+  "description": "A vivid recursive cuttlefish familiar inhabiting the Fractal Terra computational reef.",
   "spriteVersionNumber": 2,
   "spritesheetPath": "spritesheet.webp",
   "license": "CC-BY-4.0",
@@ -11,7 +11,7 @@
     "hermesNotesPath": "hermes.md",
     "provenancePath": "provenance.json",
     "autoPublish": true,
-    "readmeOrder": 30,
-    "tags": ["codex-v2", "hermes", "plush", "chameleon", "rainbow"]
+    "readmeOrder": 50,
+    "tags": ["codex-v2", "hermes", "painterly", "cuttlefish", "chromatophore"]
   }
 }

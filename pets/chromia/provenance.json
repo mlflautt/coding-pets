@@ -1,0 +1,17 @@
+{
+  "createdAt": "2026-08-24",
+  "createdBy": ["Mitchell Flautt", "Codex"],
+  "sourceType": "original",
+  "derivedFrom": null,
+  "tools": ["hatch-pet", "imagegen", "deterministic atlas QA"],
+  "references": [
+    "User-directed approved clean-underside Chromia reference retained in concept-development/approved-reference.png"
+  ],
+  "assetSha256": "51dd2659380b0f42721316d3b7958078a3e76816c60c053110bcc8189d5238dd",
+  "previewSource": "Deterministic three-frame composite from the published spritesheet",
+  "previewSha256": "2bddb3b9854ea724143a765b3ef2d15484759b0dee0fd3cc2457acf95d81e395",
+  "license": "CC-BY-4.0",
+  "attributionName": "Chromia by mlflautt",
+  "attributionUrl": "https://github.com/mlflautt/coding-pets",
+  "notes": "Published from the finalized and independently reviewed Codex v2 package. The public preview uses shipped idle, waving, and active-work cells without regenerating or retouching the character."
+}

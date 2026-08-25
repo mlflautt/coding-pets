@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "run_dir": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia",
+  "spritesheet": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/final/spritesheet-extended.webp",
+  "validation": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/final/validation-extended.json",
+  "chroma_despill": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/qa/chroma-despill-extended.json",
+  "contact_sheet": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/qa/contact-sheet-extended.png",
+  "direction_sheet": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/qa/look-directions.png",
+  "direction_semantics": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/qa/direction-semantics.json",
+  "blind_direction_validation": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/qa/direction-blind-validation.json",
+  "continuity": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/qa/look-continuity.json",
+  "review": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/qa/review.json",
+  "final_visual_qa": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/runs/chromia/qa/final-visual-qa.json",
+  "package": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/coding-pets/pets/chromia",
+  "finalized_at": "2026-08-24"
+}
