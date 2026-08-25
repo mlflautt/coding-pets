@@ -47,6 +47,20 @@ class PreviewError(ValueError):
     """Raised when a preview configuration or source atlas is invalid."""
 
 
+def pixels_match(first: bytes, second: bytes) -> bool:
+    """Return whether two encoded images contain the same rendered RGBA pixels."""
+    try:
+        with Image.open(io.BytesIO(first)) as first_image:
+            first_rgba = first_image.convert("RGBA")
+            first_rgba.load()
+        with Image.open(io.BytesIO(second)) as second_image:
+            second_rgba = second_image.convert("RGBA")
+            second_rgba.load()
+    except OSError:
+        return False
+    return first_rgba.size == second_rgba.size and first_rgba.tobytes() == second_rgba.tobytes()
+
+
 def resolve_inside(base: Path, relative: str, field: str) -> Path:
     candidate = (base / relative).resolve()
     try:
@@ -175,19 +189,24 @@ def main() -> int:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 1
 
-    digest = hashlib.sha256(payload).hexdigest()
     if args.check:
         try:
             existing = output_path.read_bytes()
         except OSError as exc:
             print(f"ERROR: unable to read {output_path}: {exc}", file=sys.stderr)
             return 1
-        if existing != payload:
+        if not pixels_match(existing, payload):
             print(f"ERROR: {output_path} is not reproducible from {args.config}", file=sys.stderr)
             return 1
-        print(f"OK: {output_path} matches {args.config} ({', '.join(poses)}; sha256={digest})")
+        digest = hashlib.sha256(existing).hexdigest()
+        encoding_note = "exact encoding" if existing == payload else "pixel-equivalent encoding"
+        print(
+            f"OK: {output_path} matches {args.config} "
+            f"({', '.join(poses)}; {encoding_note}; sha256={digest})"
+        )
         return 0
 
+    digest = hashlib.sha256(payload).hexdigest()
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_bytes(payload)
     print(f"OK: wrote {output_path} ({', '.join(poses)}; sha256={digest})")

@@ -10,7 +10,7 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 
-from generate_public_preview import PreviewError, render
+from generate_public_preview import PreviewError, pixels_match, render
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -217,13 +217,16 @@ def main() -> int:
             current_preview = pet.preview_path.read_bytes()
         except OSError:
             current_preview = b""
-        if current_preview != pet.preview_bytes:
+        preview_is_current = pixels_match(current_preview, pet.preview_bytes)
+        if not preview_is_current:
             stale.append(str(pet.preview_path.relative_to(ROOT)))
             pending_writes.append((pet.preview_path, pet.preview_bytes))
 
+        published_preview = current_preview if preview_is_current else pet.preview_bytes
+
         provenance_after = dict(pet.provenance)
         provenance_after["assetSha256"] = sha256_file(pet.directory / "spritesheet.webp")
-        provenance_after["previewSha256"] = sha256_bytes(pet.preview_bytes)
+        provenance_after["previewSha256"] = sha256_bytes(published_preview)
         if provenance_after != pet.provenance:
             path = pet.directory / "provenance.json"
             stale.append(str(path.relative_to(ROOT)))

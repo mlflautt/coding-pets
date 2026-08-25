@@ -22,7 +22,7 @@ python3 scripts/generate_public_preview.py pets/<pet-id>/preview.json
 python3 scripts/generate_public_preview.py pets/<pet-id>/preview.json --check
 ```
 
-The first command writes `preview.png`. The second renders the same configuration in memory and fails if the committed preview differs.
+The first command writes `preview.png`. The second renders the same configuration in memory and fails if the committed preview's dimensions or RGBA pixels differ. PNG compression bytes may vary across operating systems and zlib builds without changing the image, so verification deliberately accepts pixel-equivalent encodings. Provenance continues to hash the exact shipped `preview.png` bytes.
 
 ## Pose selection
 
