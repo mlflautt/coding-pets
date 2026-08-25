@@ -6,6 +6,14 @@ A public catalogue of my custom animated pets made via iteration with the "hatch
 
 <!-- BEGIN AUTO-PUBLISHED PETS -->
 
+### Moon Regent
+
+[<img src="pets/moon-regent/preview.png" width="720" alt="Moon Regent public preview">](pets/moon-regent/preview.png)
+
+A lunar Emperor penguin familiar for Codex and Hermes Agent, expressing measured execution, spiritual insight, and final verification.
+
+[Character and motion guide](pets/moon-regent/hermes.md) · [Codex manifest](pets/moon-regent/pet.json) · [QA evidence](pets/moon-regent/qa/)
+
 ### Terra Golem
 
 [<img src="pets/terra-golem/preview.png" width="720" alt="Terra Golem public preview">](pets/terra-golem/preview.png)

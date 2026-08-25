@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "review_required": true,
+  "directions": [
+    {"degree":"000","verdict":"pass","expected":"up","observed":"head, eyes, and beak lift upward","reason":"unambiguous up cardinal"},
+    {"degree":"022.5","verdict":"pass","expected":"up-right","observed":"head and beak enter the upper-right quadrant","reason":"both blind axes pass"},
+    {"degree":"045","verdict":"pass","expected":"up-right","observed":"clear upper-right diagonal","reason":"both blind axes pass"},
+    {"degree":"067.5","verdict":"pass","expected":"up-right","observed":"near-right profile remains visibly lifted","reason":"both blind axes pass"},
+    {"degree":"090","verdict":"pass","expected":"screen-right","observed":"beak and face point screen-right","reason":"unambiguous cardinal and hard blind pass"},
+    {"degree":"112.5","verdict":"pass","expected":"down-right","observed":"head and beak enter the lower-right quadrant","reason":"both blind axes pass"},
+    {"degree":"135","verdict":"pass","expected":"down-right","observed":"clear lower-right diagonal","reason":"both blind axes pass"},
+    {"degree":"157.5","verdict":"warning","expected":"down-right","observed":"labeled loop reads as the final down-right step before down","reason":"vertical blind axis passes; horizontal blind majority reversed at this near-down intermediate"},
+    {"degree":"180","verdict":"pass","expected":"down","observed":"head and beak bow downward","reason":"unambiguous cardinal and hard blind pass"},
+    {"degree":"202.5","verdict":"warning","expected":"down-left","observed":"labeled loop reads as the first down-left step after down","reason":"vertical blind axis passes; horizontal blind majority reversed at this near-down intermediate"},
+    {"degree":"225","verdict":"pass","expected":"down-left","observed":"clear lower-left diagonal","reason":"both blind axes pass"},
+    {"degree":"247.5","verdict":"pass","expected":"down-left","observed":"near-left profile remains visibly lowered","reason":"both blind axes pass"},
+    {"degree":"270","verdict":"pass","expected":"screen-left","observed":"beak and face point screen-left","reason":"unambiguous cardinal and hard blind pass"},
+    {"degree":"292.5","verdict":"pass","expected":"up-left","observed":"head and beak enter the upper-left quadrant","reason":"both blind axes pass"},
+    {"degree":"315","verdict":"pass","expected":"up-left","observed":"clear upper-left diagonal","reason":"both blind axes pass"},
+    {"degree":"337.5","verdict":"pass","expected":"up-left","observed":"near-up step remains visibly left-biased","reason":"both blind axes pass"}
+  ],
+  "cardinals": "pass",
+  "continuity": "pass_with_metric_warnings",
+  "continuity_note": "The 157.5-to-180 and 247.5-to-270 pixel differences are local outliers, but the labeled ordered loop shows no visible snap, scale pop, identity change, or reversal.",
+  "blind_resolution": "accepted_minor"
+}

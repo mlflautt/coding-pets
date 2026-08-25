@@ -1,0 +1,17 @@
+{
+  "id": "moon-regent",
+  "displayName": "Moon Regent",
+  "description": "A lunar Emperor penguin familiar for Codex and Hermes Agent, expressing measured execution, spiritual insight, and final verification.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "license": "CC-BY-4.0",
+  "catalog": {
+    "status": "published",
+    "previewPath": "preview.png",
+    "hermesNotesPath": "hermes.md",
+    "provenancePath": "provenance.json",
+    "autoPublish": true,
+    "readmeOrder": 5,
+    "tags": ["codex-v2", "hermes", "painterly", "emperor-penguin", "thoth-hermes", "lunar-familiar"]
+  }
+}

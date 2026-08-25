@@ -1,0 +1,1001 @@
+{
+  "ok": true,
+  "frames_root": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "errors": [],
+  "warnings": [
+    "idle used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "running-right used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "running-left used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "waving used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "jumping used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "failed used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "waiting used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "running used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "review used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+  ],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "idle used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\idle\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11661,
+          "bbox": [
+            50,
+            7,
+            142,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\idle\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12106,
+          "bbox": [
+            47,
+            7,
+            145,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\idle\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11744,
+          "bbox": [
+            50,
+            7,
+            142,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\idle\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11797,
+          "bbox": [
+            49,
+            7,
+            142,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\idle\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11779,
+          "bbox": [
+            50,
+            7,
+            142,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\idle\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11825,
+          "bbox": [
+            50,
+            7,
+            142,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-right used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running-right\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12631,
+          "bbox": [
+            37,
+            7,
+            154,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running-right\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12646,
+          "bbox": [
+            41,
+            7,
+            151,
+            198
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running-right\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12131,
+          "bbox": [
+            41,
+            7,
+            151,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running-right\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12802,
+          "bbox": [
+            38,
+            7,
+            155,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running-right\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11482,
+          "bbox": [
+            43,
+            8,
+            149,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running-right\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12557,
+          "bbox": [
+            40,
+            7,
+            152,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running-right\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11555,
+          "bbox": [
+            39,
+            9,
+            153,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running-right\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12205,
+          "bbox": [
+            40,
+            8,
+            152,
+            199
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-left used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running-left\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12631,
+          "bbox": [
+            38,
+            7,
+            155,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running-left\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12646,
+          "bbox": [
+            41,
+            7,
+            151,
+            198
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running-left\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12129,
+          "bbox": [
+            40,
+            7,
+            150,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running-left\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12802,
+          "bbox": [
+            37,
+            7,
+            154,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running-left\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11482,
+          "bbox": [
+            43,
+            8,
+            149,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running-left\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12557,
+          "bbox": [
+            40,
+            7,
+            152,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running-left\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11555,
+          "bbox": [
+            39,
+            9,
+            153,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running-left\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12205,
+          "bbox": [
+            40,
+            8,
+            152,
+            199
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waving used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\waving\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11982,
+          "bbox": [
+            49,
+            8,
+            142,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\waving\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11568,
+          "bbox": [
+            52,
+            7,
+            140,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\waving\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13190,
+          "bbox": [
+            31,
+            8,
+            161,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\waving\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11616,
+          "bbox": [
+            52,
+            8,
+            140,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "jumping used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\jumping\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6296,
+          "bbox": [
+            51,
+            81,
+            140,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\jumping\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7247,
+          "bbox": [
+            46,
+            41,
+            144,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\jumping\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7870,
+          "bbox": [
+            44,
+            8,
+            147,
+            164
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\jumping\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7241,
+          "bbox": [
+            52,
+            40,
+            139,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\jumping\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5714,
+          "bbox": [
+            54,
+            86,
+            137,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "failed used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\failed\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12073,
+          "bbox": [
+            50,
+            8,
+            142,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\failed\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12183,
+          "bbox": [
+            50,
+            7,
+            142,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\failed\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12013,
+          "bbox": [
+            50,
+            10,
+            142,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\failed\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10856,
+          "bbox": [
+            51,
+            28,
+            141,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\failed\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9983,
+          "bbox": [
+            52,
+            41,
+            140,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\failed\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11366,
+          "bbox": [
+            50,
+            16,
+            142,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\failed\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12177,
+          "bbox": [
+            50,
+            8,
+            142,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\failed\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12102,
+          "bbox": [
+            50,
+            8,
+            142,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waiting used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\waiting\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11669,
+          "bbox": [
+            50,
+            7,
+            140,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\waiting\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11747,
+          "bbox": [
+            50,
+            7,
+            141,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\waiting\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12814,
+          "bbox": [
+            28,
+            7,
+            162,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\waiting\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12486,
+          "bbox": [
+            31,
+            7,
+            160,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\waiting\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10904,
+          "bbox": [
+            55,
+            7,
+            136,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\waiting\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11734,
+          "bbox": [
+            50,
+            7,
+            140,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11529,
+          "bbox": [
+            50,
+            11,
+            141,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11664,
+          "bbox": [
+            50,
+            11,
+            141,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11553,
+          "bbox": [
+            50,
+            11,
+            141,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 14
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11629,
+          "bbox": [
+            50,
+            8,
+            141,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 6
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11645,
+          "bbox": [
+            50,
+            8,
+            141,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 24
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\running\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11414,
+          "bbox": [
+            50,
+            11,
+            141,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 7
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "review used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\review\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11249,
+          "bbox": [
+            53,
+            7,
+            139,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\review\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11228,
+          "bbox": [
+            53,
+            7,
+            139,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\review\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11252,
+          "bbox": [
+            53,
+            7,
+            139,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\review\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11179,
+          "bbox": [
+            53,
+            7,
+            139,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\review\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11051,
+          "bbox": [
+            53,
+            7,
+            139,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Mitchell\\Documents\\ChatGPT\\Pet Hatchery\\pets\\moon-regent-running-left-revision-3\\frames-preview\\review\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11202,
+          "bbox": [
+            53,
+            7,
+            139,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    }
+  ]
+}

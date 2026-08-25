@@ -1,0 +1,26 @@
+{
+  "createdAt": "2026-08-25",
+  "createdBy": [
+    "Mitchell Flautt",
+    "Codex"
+  ],
+  "sourceType": "original",
+  "derivedFrom": null,
+  "tools": [
+    "hatch-pet",
+    "imagegen",
+    "deterministic atlas assembly"
+  ],
+  "references": [
+    "User-directed Thoth-Hermes Moon-Scribe concept exploration",
+    "User-selected Moon Regent Emperor penguin from the four-penguin concept sheet",
+    "Approved Moon Regent canonical base and revision-2 motion design",
+    "User-approved revision-3 running-left repair"
+  ],
+  "license": "CC-BY-4.0",
+  "attributionName": "Moon Regent by mlflautt",
+  "attributionUrl": "https://github.com/mlflautt/coding-pets",
+  "notes": "Moon Regent is an original AI-assisted familiar inspired by broad Thoth-Hermes themes. Revision 3 replaced only the stilted running-left row by mirroring each accepted running-right frame independently while preserving temporal order. The source penguin comparison and canonical base are retained as development evidence; the packaged atlas is authoritative.",
+  "assetSha256": "d04e0f04dcd12515b3a4190359e23d53e3dd9bef22d98bcc7a922f5bed72eeb4",
+  "previewSha256": "be6f6b4ca0e783802156df0b7115762c4684b2a30043b4bda5bec16437e68cbe"
+}

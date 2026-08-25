@@ -4,6 +4,24 @@
   "name": "Codex + Hermes Pet Catalogue",
   "pets": [
     {
+      "id": "moon-regent",
+      "displayName": "Moon Regent",
+      "description": "A lunar Emperor penguin familiar for Codex and Hermes Agent, expressing measured execution, spiritual insight, and final verification.",
+      "status": "published",
+      "license": "CC-BY-4.0",
+      "manifest": "pets/moon-regent/pet.json",
+      "preview": "pets/moon-regent/preview.png",
+      "tags": [
+        "codex-v2",
+        "hermes",
+        "painterly",
+        "emperor-penguin",
+        "thoth-hermes",
+        "lunar-familiar"
+      ],
+      "derivedFrom": null
+    },
+    {
       "id": "calamus",
       "displayName": "Calamus",
       "description": "A faience mantis scribe familiar inspired by the measured wisdom and written memory of Thoth.",
