@@ -24,4 +24,4 @@ Terra Golem is a squat, friendly forest-workshop familiar built from moss-covere
 
 ## Human guidance
 
-The published pet follows the user-selected bottom-left mossy golem from the retained four-concept reference. Structural and independent visual QA pass; preserved review warnings concern only accepted intermediate direction ambiguity and stable extraction, not a visible runtime defect.
+The published pet follows the user-selected bottom-left mossy golem from the retained four-concept reference. The failed and review rows use separated source poses so each frame has a complete silhouette and no neighboring-frame leakage. The active-work row is a custom planted “stonework computation” loop: Terra rhythmically calibrates its fixed wooden belly panel with both hands while its visor tracks the sequence. Structural and independent visual QA pass; preserved review warnings concern only accepted intermediate direction ambiguity.

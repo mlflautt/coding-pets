@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "redesignedAt": "2026-08-27T02:55:44Z",
+  "row": 7,
+  "state": "running",
+  "concept": "stonework computation",
+  "motion": "A planted six-frame loop where Terra alternates both hands in a rhythmic calibration sequence on its fixed wooden belly panel while the visor and head track the work.",
+  "constraints": [
+    "no literal locomotion",
+    "no new props or symbols",
+    "fixed belly panel",
+    "planted feet and stable baseline",
+    "continuous blue separation between source poses"
+  ],
+  "extractionMethod": "components",
+  "validation": {
+    "atlasOk": true,
+    "visualQa": "pass",
+    "assetSha256": "2025afd918eeefa15116b67392c5c9122b037c56743f312a16c08d315a96ecb1"
+  }
+}

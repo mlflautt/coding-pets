@@ -17,5 +17,7 @@
   "scale_refinement": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/terra-golem-run/qa/scale-refinement.json",
   "row_zero_clip_repair": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/terra-golem-run/qa/row-zero-clip-repair.json",
   "animation_smoothing_repair": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/terra-golem-run/qa/animation-smoothing-repair.json",
-  "refined_at": "2026-08-24T16:59:03Z"
+  "row_boundary_repair": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/terra-golem-run/qa/row-boundary-repair.json",
+  "running_redesign": "/home/mitchell/Documents/ChatGPT/Pet Hatchery/terra-golem-run/qa/running-redesign.json",
+  "refined_at": "2026-08-27T02:55:44Z"
 }

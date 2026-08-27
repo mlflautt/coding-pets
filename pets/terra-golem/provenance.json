@@ -1,15 +1,22 @@
 {
   "createdAt": "2026-08-24",
-  "createdBy": ["Mitchell Flautt", "Codex"],
+  "createdBy": [
+    "Mitchell Flautt",
+    "Codex"
+  ],
   "sourceType": "original",
   "derivedFrom": null,
-  "tools": ["hatch-pet", "imagegen", "deterministic atlas QA"],
+  "tools": [
+    "hatch-pet",
+    "imagegen",
+    "deterministic atlas QA"
+  ],
   "references": [
     "User-selected bottom-left moss-covered golem from the retained four-concept reference"
   ],
-  "assetSha256": "ef72b3f7a0ab6135046e0fa9fa4e61de24c71ad17406b16bd9a392cf1fdf9605",
+  "assetSha256": "2025afd918eeefa15116b67392c5c9122b037c56743f312a16c08d315a96ecb1",
   "previewSource": "Deterministic three-frame composite from the published spritesheet",
-  "previewSha256": "bf401691418d18d16e517d76bcf9dbaced2cfcfcb5970dc1533d8e1cc0fac6ff",
+  "previewSha256": "f6a0d1dd6a02f056f2df2097336012048c8e276f7de53c8ce2320c8f204c047b",
   "license": "CC-BY-4.0",
   "attributionName": "Terra Golem by mlflautt",
   "attributionUrl": "https://github.com/mlflautt/coding-pets",

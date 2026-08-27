@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "repairedAt": "2026-08-27T02:45:18Z",
+  "reportedCells": [
+    "R5C1-R5C4",
+    "R8C0-R8C5"
+  ],
+  "rootCause": "The generated R5 and R8 source poses touched across slot boundaries, forcing slot slicing to place part of one golem in the neighboring frame.",
+  "repair": "Regenerated the complete failed and review row strips with continuous blue separation, then re-extracted both rows by connected components and rebuilt the v2 atlas.",
+  "extractionMethod": "components",
+  "validation": {
+    "atlasOk": true,
+    "visualQa": "pass",
+    "assetSha256": "fe6fa1c6e389d7a688416e67901418e37f07d7f1c9fee7479ad11c0547cc6d0e"
+  }
+}
